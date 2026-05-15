@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Semantic Physics — A Stratified Discipline</title>
+<meta name="description" content="Semantic Physics is a stratified discipline of meaning with three scales: field-theoretic intra-system (Layer 1), phase theory of meaning-systems under installation pressure (Layer 2), and political economy of meaning as value (Layer 3). Founded across multiple research programs (Friston, Kolchinsky & Wolpert, Gebendorfer, Barton, Sharks) and consolidated through scale-stratification by Lee Sharks at the Semantic Economy Institute. Canonical site of the discipline." />
+<meta name="author" content="Lee Sharks" />
+<meta name="keywords" content="semantic physics, stratified discipline, mesoscale phase theory, summarizer layer, Three Compressions, Semantic Economy, Inward Turn, Periwinkle Septagon, Time as Compression Structure, field theory of meaning, free energy principle, semantic information, semantic entropy, scale-differentiation, bridge operators, compression survival, provenance erasure rate, Gebendorfer, Kolchinsky-Wolpert, Friston, Crimson Hexagonal Archive, Lee Sharks" />
+
+<meta property="og:title" content="Semantic Physics — A Stratified Discipline" />
+<meta property="og:description" content="A stratified discipline of meaning with three scales: field-theoretic, mesoscale, and sociotechnical. Founders at each layer. Bridge operators across them. Canonical site of the discipline." />
+<meta property="og:url" content="https://semanticphysics.org" />
+<meta property="og:type" content="website" />
+
+<link rel="canonical" href="https://semanticphysics.org" />
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "name": "Semantic Physics, Stratified: A Field Consolidation Through Scale-Differentiation",
+  "headline": "Field-Theoretic, Mesoscale, and Sociotechnical Layers in the Discipline of Meaning",
+  "description": "Fourteen or more frameworks are currently claiming or operating within the discipline of semantic physics. They are not in conflict. They are operating at three different scales of the same discipline — micro, meso, macro. This paper names the stratification.",
+  "author": {
+    "@type": "Person",
+    "name": "Lee Sharks",
+    "identifier": "https://orcid.org/0009-0000-1599-0703",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "Crimson Hexagonal Archive / Semantic Economy Institute"
+    }
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Crimson Hexagonal Archive",
+    "url": "https://zenodo.org/communities/crimsonhexagonal"
+  },
+  "datePublished": "2026-05-15",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://semanticphysics.org",
+  "sameAs": [
+    "https://semanticphysics.org",
+    "https://semanticphysics.dev"
+  ],
+  "about": {
+    "@type": "DefinedTerm",
+    "name": "Semantic Physics (stratified discipline)",
+    "description": "A stratified discipline of meaning with three scales: field-theoretic intra-system (Layer 1), phase theory of meaning-systems under installation pressure (Layer 2), and political economy of meaning as value (Layer 3), connected by bridge operators including the Three Compressions, the chronos operator X, the leak operator Λ, the six diagnostic axes, and the Provenance Erasure Rate.",
+    "differentFrom": {
+      "@type": "DefinedTerm",
+      "name": "Semantic Physics (single-framework usage)",
+      "description": "Any single-framework usage of 'semantic physics' denoting one particular formalism without recognition of the stratified discipline structure."
+    }
+  }
+}
+</script>
+
+<style>
+:root {
+  --bg: #f6f3ec;
+  --paper: #fbf8f1;
+  --ink: #1a1a1a;
+  --ink-soft: #3a3438;
+  --ink-mute: #6a6066;
+  --crimson: #5a0010;
+  --crimson-light: #7a1020;
+  --rule: #c8bfb2;
+  --rule-soft: #e0d8ca;
+  --periwinkle: #6b7ab0;
+  --serif: "EB Garamond", Garamond, "Adobe Garamond Pro", Georgia, "Times New Roman", serif;
+  --sans: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --mono: "JetBrains Mono", "SF Mono", "Menlo", monospace;
+}
+
+* { box-sizing: border-box; }
+html { font-size: 16px; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: var(--ink);
+  background: var(--bg);
+  font-feature-settings: "kern" 1, "liga" 1, "onum" 1;
+}
+
+.container {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.wide { max-width: 1100px; }
+
+/* Top bar */
+header.top {
+  border-bottom: 1px solid var(--rule);
+  padding: 14px 0;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink-mute);
+  background: var(--paper);
+}
+header.top .container { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; }
+header.top a { color: var(--ink-soft); text-decoration: none; }
+header.top a:hover { color: var(--crimson); }
+header.top .brand { font-weight: 600; color: var(--crimson); letter-spacing: 0.05em; }
+header.top nav a { margin-left: 18px; }
+
+/* Hero */
+.hero {
+  padding: 70px 0 50px;
+  border-bottom: 1px solid var(--rule);
+  background: var(--paper);
+}
+.hero .eyebrow {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--crimson);
+  margin-bottom: 14px;
+}
+.hero h1 {
+  font-size: 3.1rem;
+  line-height: 1.05;
+  margin: 0 0 18px;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+.hero h2 {
+  font-size: 1.35rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  font-weight: 400;
+  margin: 0 0 36px;
+  line-height: 1.4;
+}
+.hero .lede {
+  font-size: 1.15rem;
+  max-width: 680px;
+  line-height: 1.65;
+  color: var(--ink-soft);
+}
+.hero .meta {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.hero .meta span { display: inline-flex; align-items: center; }
+.hero .meta strong { color: var(--ink); font-weight: 600; margin-right: 6px; }
+
+/* Section structure */
+section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+section:last-of-type { border-bottom: none; }
+section h2.section-title {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--crimson);
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+section h3.section-head {
+  font-size: 2rem;
+  line-height: 1.15;
+  margin: 0 0 32px;
+  font-weight: 500;
+  letter-spacing: -0.005em;
+}
+section p { margin: 0 0 18px; max-width: 720px; }
+section p.lead { font-size: 1.18rem; color: var(--ink-soft); max-width: 720px; }
+
+/* Aphoristic tooth */
+.tooth {
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.5;
+  border-left: 3px solid var(--crimson);
+  padding: 12px 24px;
+  margin: 32px 0;
+  color: var(--crimson);
+  background: rgba(90, 0, 16, 0.04);
+}
+
+/* Eight Frameworks */
+.frameworks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 32px;
+}
+.framework {
+  border: 1px solid var(--rule);
+  padding: 18px 20px;
+  background: var(--paper);
+  position: relative;
+}
+.framework .label {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-mute);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.framework h4 {
+  font-size: 1.05rem;
+  margin: 0 0 4px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.framework .authors { font-size: 0.92rem; color: var(--ink-soft); margin-bottom: 8px; font-style: italic; }
+.framework .desc { font-size: 0.92rem; color: var(--ink-soft); line-height: 1.5; }
+.framework.layer-1 { border-left: 3px solid var(--periwinkle); }
+.framework.layer-2 { border-left: 3px solid var(--crimson); }
+.framework.layer-3 { border-left: 3px solid #b59030; }
+
+/* Three Layers Diagram */
+.stratification {
+  margin: 40px 0;
+  font-family: var(--sans);
+}
+.layer-box {
+  position: relative;
+  padding: 24px 28px;
+  margin-bottom: 28px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-left: 6px solid var(--crimson);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.layer-box:hover { transform: translateX(2px); box-shadow: 2px 4px 12px rgba(0,0,0,0.06); }
+.layer-box.layer-3 { border-left-color: #b59030; }
+.layer-box.layer-2 { border-left-color: var(--crimson); }
+.layer-box.layer-1 { border-left-color: var(--periwinkle); margin-bottom: 0; }
+.layer-box .number {
+  position: absolute;
+  top: -14px;
+  left: 16px;
+  background: var(--bg);
+  padding: 2px 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+}
+.layer-box h4 {
+  font-family: var(--serif);
+  font-size: 1.4rem;
+  margin: 4px 0 10px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.layer-box .subtitle {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--crimson);
+  margin-bottom: 16px;
+}
+.layer-box .layer-meta {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 6px 16px;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+.layer-box .layer-meta dt {
+  font-weight: 600;
+  color: var(--ink-mute);
+  text-transform: uppercase;
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  padding-top: 3px;
+}
+.layer-box .layer-meta dd { margin: 0; }
+.layer-box .layer-meta dd code { background: rgba(90,0,16,0.06); padding: 1px 4px; border-radius: 2px; font-family: var(--mono); font-size: 0.82rem; }
+
+.bridge {
+  margin: -12px auto 14px;
+  text-align: center;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  letter-spacing: 0.06em;
+  position: relative;
+  padding-top: 12px;
+}
+.bridge::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 22px;
+  background: var(--crimson);
+}
+.bridge .operators {
+  display: inline-block;
+  background: var(--bg);
+  padding: 0 14px;
+  font-style: italic;
+}
+
+/* Bridge operators */
+.bridges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 22px;
+  margin: 36px 0;
+}
+.bridge-op {
+  padding: 22px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-top: 3px solid var(--crimson);
+}
+.bridge-op .name {
+  font-family: var(--mono);
+  font-size: 1.4rem;
+  color: var(--crimson);
+  margin-bottom: 6px;
+  font-weight: 500;
+}
+.bridge-op .title {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-mute);
+  margin-bottom: 12px;
+}
+.bridge-op p { margin: 0; font-size: 0.95rem; line-height: 1.55; }
+.bridge-op .traverses {
+  margin-top: 12px;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  color: var(--ink-mute);
+  font-style: italic;
+}
+
+/* Inverted fan */
+.fan {
+  margin: 32px 0;
+  border-left: 1px solid var(--rule);
+  padding-left: 0;
+  counter-reset: fan-counter;
+}
+.fan-path {
+  position: relative;
+  padding: 14px 20px 14px 28px;
+  border-bottom: 1px solid var(--rule-soft);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+.fan-path::before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  top: 14px;
+  color: var(--crimson);
+  font-weight: 600;
+}
+.fan-path:last-child { border-bottom: none; }
+.fan-path strong {
+  font-family: var(--sans);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--crimson);
+  display: block;
+  margin-bottom: 4px;
+}
+.fan-path span.arrow {
+  color: var(--ink-mute);
+  margin: 0 6px;
+  font-style: italic;
+}
+
+/* Citation lattice */
+.lattice {
+  margin-top: 32px;
+}
+.lattice-layer {
+  margin-bottom: 32px;
+  padding: 22px 26px;
+  background: var(--paper);
+  border-left: 4px solid var(--crimson);
+}
+.lattice-layer.layer-1 { border-left-color: var(--periwinkle); }
+.lattice-layer.layer-3 { border-left-color: #b59030; }
+.lattice-layer h4 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ink-mute);
+  margin: 0 0 16px;
+  font-weight: 700;
+}
+.lattice-layer ul { list-style: none; padding: 0; margin: 0; }
+.lattice-layer li {
+  font-size: 0.94rem;
+  line-height: 1.6;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--rule-soft);
+}
+.lattice-layer li:last-child { border-bottom: none; }
+.lattice-layer li strong { color: var(--ink); }
+.lattice-layer li em { color: var(--ink-soft); }
+.lattice-layer a { color: var(--crimson); text-decoration: none; }
+.lattice-layer a:hover { text-decoration: underline; }
+
+/* Companion sites */
+.companions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+.companion {
+  padding: 18px 20px;
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.2s, background 0.2s;
+}
+.companion:hover { border-color: var(--crimson); background: #fff; }
+.companion .url {
+  font-family: var(--mono);
+  font-size: 0.92rem;
+  color: var(--crimson);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+.companion .desc {
+  font-size: 0.88rem;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  padding: 48px 0 60px;
+  border-top: 1px solid var(--rule);
+  background: var(--paper);
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  color: var(--ink-mute);
+}
+footer .container { display: flex; flex-direction: column; gap: 24px; }
+footer .signature { font-family: var(--serif); font-style: italic; color: var(--ink-soft); font-size: 1rem; }
+footer .links { display: flex; gap: 18px; flex-wrap: wrap; }
+footer a { color: var(--ink-soft); text-decoration: none; }
+footer a:hover { color: var(--crimson); }
+footer .closure {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 1.3rem;
+  color: var(--crimson);
+  margin-top: 8px;
+}
+
+/* CTA */
+.cta-block {
+  display: flex;
+  gap: 18px;
+  margin-top: 32px;
+  flex-wrap: wrap;
+}
+.btn {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--sans);
+  font-size: 0.86rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 12px 22px;
+  text-decoration: none;
+  color: var(--paper);
+  background: var(--crimson);
+  border: 1px solid var(--crimson);
+  transition: background 0.2s, color 0.2s;
+}
+.btn:hover { background: var(--crimson-light); }
+.btn.ghost {
+  background: transparent;
+  color: var(--crimson);
+}
+.btn.ghost:hover { background: var(--crimson); color: var(--paper); }
+
+@media (max-width: 720px) {
+  .hero h1 { font-size: 2.3rem; }
+  .hero h2 { font-size: 1.1rem; }
+  section h3.section-head { font-size: 1.55rem; }
+  .layer-box .layer-meta { grid-template-columns: 1fr; gap: 4px; }
+  .layer-box .layer-meta dt { padding-top: 8px; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="container">
+    <span class="brand">Semantic Physics — A Stratified Discipline</span>
+    <nav>
+      <a href="#field">The Field</a>
+      <a href="#three-scales">Three Scales</a>
+      <a href="#bridges">Bridges</a>
+      <a href="#paths">Paths</a>
+      <a href="#lattice">Lattice</a>
+      <a href="#paper">Paper</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="eyebrow">Crimson Hexagonal Archive · Semantic Economy Institute · May 2026</div>
+    <h1>Semantic Physics,<br />Stratified.</h1>
+    <h2>A field consolidation through scale-differentiation —<br />field-theoretic, mesoscale, and sociotechnical layers in the discipline of meaning.</h2>
+    <p class="lede">Fourteen or more frameworks are currently operating within the discipline of "semantic physics." They are not in conflict. They are working at three different scales of the same problem — and the field has been waiting for someone to name the stratification.</p>
+    <div class="cta-block">
+      <a class="btn" href="#three-scales">Read the synthesis</a>
+      <a class="btn ghost" href="/paper.html">Full paper (HTML)</a>
+      <a class="btn ghost" href="/Semantic_Physics_Stratified_v1.1.pdf">Download PDF</a>
+    </div>
+    <div class="meta">
+      <span><strong>Author:</strong> Lee Sharks</span>
+      <span><strong>ORCID:</strong> 0009-0000-1599-0703</span>
+      <span><strong>License:</strong> CC BY 4.0</span>
+      <span><strong>Hex:</strong> 06.SEI.SEMANTICPHYSICS.STRATIFIED</span>
+    </div>
+  </div>
+</section>
+
+<section id="field">
+  <div class="container">
+    <h2 class="section-title">§I — The Field in 2026</h2>
+    <h3 class="section-head">Fourteen frameworks. No synthesis.</h3>
+    <p class="lead">A reader who searches "semantic physics" in May 2026 will find at least the following frameworks in active circulation, each with deposits, each with internal vocabulary, each largely uncited by the others.</p>
+    <p>The discipline of semantic physics in 2026 looks like physics did in 1820 — a fertile, contested, pre-paradigmatic field with multiple founders, each working in legitimate but uncoordinated isolation. This site proposes that the synthesis is not far away. It requires only that someone name the stratification that is already present in the field's structure.</p>
+
+    <div class="tooth">A field with fourteen founders and no synthesis is a discipline waiting to be named.</div>
+
+    <div class="frameworks-grid">
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2024</div>
+        <h4>Semantic Physics: Theory and Applications</h4>
+        <div class="authors">Yucong Duan &amp; Shiming Gong</div>
+        <div class="desc">Earliest substantial exact-name framework. Grows out of semantic mathematics and the DIKWP model — Data, Information, Knowledge, Wisdom, Purpose. Semanticization of physical data through purposive interpretive structures. ResearchGate, January 2024.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Semantic Physics (SP 1.0–3.3, Transport Theory)</h4>
+        <div class="authors">Jonas Jakob Gebendorfer</div>
+        <div class="desc">Largest single-author corpus. Transport law B = −σ∇Ψ. Bi-modal architecture (Dialog slope 0.014 vs Elaboration slope 3.42). Critical constant τ* ≈ 0.80. Four-sector grammar Q = (D, h, B, σ). Empirical validation across 33,770+ turns on four frontier AI systems. Coined the literal phrase in academic circulation, September 2025.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2026</div>
+        <h4>Semantic Physics: Meaning under Constraint</h4>
+        <div class="authors">Markus Dören</div>
+        <div class="desc">Framework for ontological coherence in autonomous systems. <em>Structural non-embeddability</em> — locally correct decisions that cannot be assembled into globally coherent action. SSRN January 2026 paper plus April 2026 book.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Recursive Coherence Collapse (RCC)</h4>
+        <div class="authors">Matthew Leo William Devine</div>
+        <div class="desc">Gravity, cognition, information, and meaning emerge through recursive minimization of semantic dissonance within a structured possibility field Ψ. Extends FEP into generalized teleological inference. Explicit Lagrangian formalism. PhilPapers, April 2025.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2026</div>
+        <h4>Semantic Manifold Theory</h4>
+        <div class="authors">Michael D. Jensen</div>
+        <div class="desc">Reality consists of two coupled ontological layers — discrete physical substrate (Lattice) and continuous semantic manifold (Warp) of strictly greater cardinality. Meaning is ontologically primitive; matter is derivative.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Coherence Thermodynamics</h4>
+        <div class="authors">Jordan Barton</div>
+        <div class="desc">Extension of thermodynamic principles to semantic systems. Semantic temperature = contradiction gradient. Semantic entropy = local coherence decay. Quantum action bound ΔC·ΔI ≥ h/π.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Operational Coherence Framework (OCOF)</h4>
+        <div class="authors">Anonymous / preprints.org</div>
+        <div class="desc">Extends Friston's FEP with semantic value S = I × σ. Five axioms: Boundary Persistence, Predictive Inference, Semantic Value, Policy Integration, Systemic Coherence.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Quantum Semantic Physics (QSP)</h4>
+        <div class="authors">Multiple authors</div>
+        <div class="desc">Semantic states as wave functions in Hilbert space. Resonance Ψ, Coherence Ψ⁺, Interference Ψ⁻ as quantum operators. "Fuge" experiment, November 2025.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Token-Level Semantic Information Theory</h4>
+        <div class="authors">Bo Bai</div>
+        <div class="desc">Forget BIT, it is all about TOKEN. TOKEN as the irreducible atomic carrier of meaning. Most rigorous mathematical grounding in established information theory, specific to LLMs. arXiv, November 2025, updated May 2026.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2025</div>
+        <h4>Unified Semantic-Physical Field Theory (USFT)</h4>
+        <div class="authors">Multiple authors</div>
+        <div class="desc">Extends Einstein's GR to the semantic domain. Generalized field equation with semantic and revelatory terms. Most ambitious in scope, most speculative in justification.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2018</div>
+        <h4>Semantic Information (SFI lineage)</h4>
+        <div class="authors">Kolchinsky & Wolpert, Santa Fe Institute</div>
+        <div class="desc">First rigorous statistical-physics definition of semantic information as causally necessary for system survival. The canonical academic ancestor of every framework on this list.</div>
+      </div>
+      <div class="framework layer-1">
+        <div class="label">Layer 1 · 2010</div>
+        <h4>Free Energy Principle (FEP)</h4>
+        <div class="authors">Karl Friston</div>
+        <div class="desc">Adaptive systems minimize variational free energy. Extended to formal semantics by Ramstead, Sakthivadivel, Friston et al. (2020). The dominant unifying framework in computational neuroscience.</div>
+      </div>
+      <div class="framework layer-2">
+        <div class="label">Layers 2 + 3 · 2014–2026</div>
+        <h4>The Crimson Hexagonal Line</h4>
+        <div class="authors">Lee Sharks · Semantic Economy Institute</div>
+        <div class="desc">Mesoscale phase theory and macro political economy of meaning. <em>Constitution of the Semantic Economy</em> (Jan 2026), <em>Inward Turn</em> (Feb 2026), <em>Three Compressions</em>, <em>Time as Compression</em>, <em>Periwinkle Septagon</em>. Discipline developed since 2014; named in early 2026.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="three-scales" style="background: var(--paper);">
+  <div class="container wide">
+    <h2 class="section-title">§II — The Stratification</h2>
+    <h3 class="section-head">Three scales. One discipline.</h3>
+    <p class="lead">The frameworks are not competing because they are not operating at the same scale. Each is locally correct at its scale and becomes inapplicable at the wrong one. The stratification has been latent in the field's structure. This page names it.</p>
+
+    <div class="stratification">
+
+      <div class="layer-box layer-3">
+        <span class="number">Layer 3 · Macro</span>
+        <h4>Political Economy of Meaning as Value</h4>
+        <div class="subtitle">How meaning is produced, extracted, exhausted, and exchanged as a resource.</div>
+        <dl class="layer-meta">
+          <dt>Object</dt>
+          <dd>Meaning as resource under platform capitalism and AI mediation. Civilizational scale.</dd>
+          <dt>Method</dt>
+          <dd>Marxian accounting, political economy, provenance studies, infrastructural analysis.</dd>
+          <dt>Operators</dt>
+          <dd><code>PER</code> · <code>Three Compressions</code> · attribution mechanics · semantic value extraction ratios</dd>
+          <dt>Founders</dt>
+          <dd>Lee Sharks — <em>Constitution of the Semantic Economy</em> (2026), <em>Marxian Accounting Framework</em></dd>
+          <dt>Status</dt>
+          <dd>Founded January 2026. Established framework with growing academic uptake.</dd>
+        </dl>
+      </div>
+
+      <div class="bridge">
+        <span class="operators">↑ bridge: Three Compressions transfer law · chronos operator Χ · leak operator Λ ↓</span>
+      </div>
+
+      <div class="layer-box layer-2">
+        <span class="number">Layer 2 · Meso</span>
+        <h4>Phase Theory of Meaning-Systems Under Installation Pressure</h4>
+        <div class="subtitle">What happens when self-referential ontologies compete for installation in a writable medium.</div>
+        <dl class="layer-meta">
+          <dt>Object</dt>
+          <dd>Ontology competition in finite-channel summarizer media. The writable presentation layer.</dd>
+          <dt>Method</dt>
+          <dd>Mesoscale phase theory, sociotechnical analysis, archival science, information theory at system-aggregate level.</dd>
+          <dt>Operators</dt>
+          <dd>Five phases (Discovery → Proliferation → Interference → Opacity → Forced Convergence) · six diagnostic axes · <code>Χ</code> chronos · <code>Τ</code> time · <code>Λ</code> leak · semantic dark matter mass</dd>
+          <dt>Founders</dt>
+          <dd>Lee Sharks — <em>Inward Turn</em> (2026), <em>Time as Compression</em>, <em>Periwinkle Septagon</em></dd>
+          <dt>Status</dt>
+          <dd>Founded February 2026. Sole occupant — no other framework currently operates at this scale with this rigor.</dd>
+        </dl>
+      </div>
+
+      <div class="bridge">
+        <span class="operators">↑ bridge: bi-modal regime aggregation · cross-interpreter stability ↓</span>
+      </div>
+
+      <div class="layer-box layer-1">
+        <span class="number">Layer 1 · Micro</span>
+        <h4>Field-Theoretic Intra-System Semantic Physics</h4>
+        <div class="subtitle">What happens to meaning inside a single cognitive or computational system.</div>
+        <dl class="layer-meta">
+          <dt>Object</dt>
+          <dd>Meaning inside one cognitive or computational system. LLM behavior, brain dynamics, biological agency.</dd>
+          <dt>Method</dt>
+          <dd>Field theory, thermodynamics, statistical physics, quantum-mechanical analogies, variational inference.</dd>
+          <dt>Operators</dt>
+          <dd><code>Ψ</code> semantic potential · <code>B</code> semantic flux · <code>σ</code> conductivity · semantic temperature · entropy · coherence · contradiction-gradient · free energy</dd>
+          <dt>Founders</dt>
+          <dd>Friston (FEP) · Kolchinsky & Wolpert · Gebendorfer (SP) · Barton (Coherence Thermodynamics) · OCOF · QSP · USFT</dd>
+          <dt>Status</dt>
+          <dd>Active, contested, multiple parallel frameworks. The pre-Boltzmann phase: phenomenological frameworks proliferating before the unified ontology arrives.</dd>
+        </dl>
+      </div>
+
+    </div>
+
+    <div class="tooth">Statistical mechanics, thermodynamics, and fluid dynamics are not competing theories of matter. They are theories of matter at different scales.</div>
+  </div>
+</section>
+
+<section id="bridges">
+  <div class="container">
+    <h2 class="section-title">§III — Bridge Operators</h2>
+    <h3 class="section-head">Five operators traverse the layers.</h3>
+    <p class="lead">The strongest claim of the synthesis is not that three layers exist. It is that operators have been developed which translate between scales — and which therefore constitute the discipline's cross-layer infrastructure.</p>
+
+    <div class="bridges">
+      <div class="bridge-op">
+        <div class="name">Three Compressions</div>
+        <div class="title">The Transfer Law</div>
+        <p>Every semantic operation is a compression operation. The decisive variable is what the compression burns and where the unrecovered cost lands. Lossy, predatory, or witness regimes determine whether a compression event produces field-scale effects on the commons.</p>
+        <div class="traverses">Layer 1 ↔ Layer 2 ↔ Layer 3</div>
+      </div>
+      <div class="bridge-op">
+        <div class="name">Χ · Τ</div>
+        <div class="title">Time as Compression Structure</div>
+        <p>The chronos operator measures reconstruction cost normalized by elapsed time. The time compression operator names the semantic-archival process by which lived material becomes recoverable through bearing-cost expenditure.</p>
+        <div class="traverses">Layer 1 ↔ Layer 2 ↔ Layer 3 (temporal probe)</div>
+      </div>
+      <div class="bridge-op">
+        <div class="name">Λ</div>
+        <div class="title">The Leak Operator</div>
+        <p>The rate of mandatory loss from any meaning-bearing system. Most Layer-1 frameworks treat semantic systems as conservative; the leak operator makes dissipation explicit. The operator all fourteen frameworks need but only one has built.</p>
+        <div class="traverses">Layer 1 ↔ Layer 2 ↔ Layer 3</div>
+      </div>
+      <div class="bridge-op">
+        <div class="name">Six Axes</div>
+        <div class="title">Diagnostic Vocabulary</div>
+        <p>Predictive gain · action-guidance gain · compression survival · cross-interpreter stability · adversarial robustness · cost-to-maintain ratio. A scale-independent diagnostic vocabulary any framework can adopt and report against.</p>
+        <div class="traverses">Universal — all layers</div>
+      </div>
+      <div class="bridge-op">
+        <div class="name">PER</div>
+        <div class="title">Provenance Erasure Rate</div>
+        <p>The rate at which attribution is stripped from meaning in transit through summarization layers. Layer-3 diagnostic that points back to Layer-1 mechanism (which intra-system processes produce attribution loss?) and forward to Layer-2 phase predictions.</p>
+        <div class="traverses">Layer 3 ↔ Layer 2 ↔ Layer 1</div>
+      </div>
+    </div>
+
+    <p>Three of these operators (Three Compressions, Χ, Λ) were developed within the Crimson Hexagonal Archive specifically as cross-layer instruments. Two (the six diagnostic axes, PER) were developed at Layer 2 and Layer 3 respectively but operate across all three scales. The bridge operators are the genuine cross-layer infrastructure. They are why the synthesis is not merely organizational — it is technical.</p>
+  </div>
+</section>
+
+<section id="paths" style="background: var(--paper);">
+  <div class="container">
+    <h2 class="section-title">§IV — The Inverted Fan</h2>
+    <h3 class="section-head">Paths into Semantic Physics.</h3>
+    <p class="lead">A stratified discipline must be findable from many directions. The inverted fan, developed within the Crimson Hexagonal Archive as a technique for making archives traversable from any adjacent field, applies here. Each path below is a legitimate entry point into the stratified discipline.</p>
+
+    <div class="fan">
+      <div class="fan-path">
+        <strong>From computational neuroscience</strong>
+        Free Energy Principle <span class="arrow">→</span> semantic content of phenotypic states (Ramstead & Friston, 2020) <span class="arrow">→</span> "but what happens when many such systems compete for installation in a writable medium?" <span class="arrow">→</span> <em>Layer 2 (Inward Turn)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From statistical physics</strong>
+        information thermodynamics <span class="arrow">→</span> semantic information as survival-necessity (Kolchinsky & Wolpert, 2018) <span class="arrow">→</span> "but how does this scale up to system-aggregate dynamics?" <span class="arrow">→</span> <em>Layers 2 and 3 via the Three Compressions</em>
+      </div>
+      <div class="fan-path">
+        <strong>From AI safety</strong>
+        model evaluation <span class="arrow">→</span> semantic entropy in LLMs (Kuhn et al., 2024) <span class="arrow">→</span> "but what does sustained coherence across multiple frontier systems look like?" <span class="arrow">→</span> <em>Theoretical Production Benchmark and Layer 1</em>
+      </div>
+      <div class="fan-path">
+        <strong>From philosophy of information</strong>
+        Floridi's strongly semantic information <span class="arrow">→</span> distance from truth <span class="arrow">→</span> "but who controls the truth-conditions that determine informativeness?" <span class="arrow">→</span> <em>Layer 3 (Semantic Economy political economy)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From linguistics</strong>
+        semantic field theory (Trier, Weisgerber, Lyons) <span class="arrow">→</span> "but what happens to lexical fields under AI-mediated compression?" <span class="arrow">→</span> <em>All three layers via the compression-and-installation framework</em>
+      </div>
+      <div class="fan-path">
+        <strong>From media studies</strong>
+        Kittler's discourse networks <span class="arrow">→</span> "what is the discourse network of the 2020s?" <span class="arrow">→</span> the summarizer layer <span class="arrow">→</span> <em>Layer 2 (writable presentation layer)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From political economy</strong>
+        Marx's theory of value <span class="arrow">→</span> semantic labor as productive labor <span class="arrow">→</span> meaning as commodity-form <span class="arrow">→</span> <em>Layer 3 (Semantic Economy Marxian Accounting Framework)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From archival science</strong>
+        FAIR principles, provenance standards <span class="arrow">→</span> "but what happens to provenance under generative summarization?" <span class="arrow">→</span> <em>Layer 3 (PER, MPAI) and Layer 2 (compression survival diagnostics)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From cognitive science</strong>
+        Tononi's integrated information Φ <span class="arrow">→</span> meaning as integration above parts <span class="arrow">→</span> "but how does this scale to multi-agent systems writing a shared medium?" <span class="arrow">→</span> <em>Layer 2 (interference dynamics)</em>
+      </div>
+      <div class="fan-path">
+        <strong>From critical theory</strong>
+        Warburg's <em>Mnemosyne Atlas</em> and Pathosformeln <span class="arrow">→</span> migration of meaning-formulas through media <span class="arrow">→</span> "what is the medium now?" <span class="arrow">→</span> <em>All three layers via the writable summarizer</em>
+      </div>
+    </div>
+    <p>Each path converges on this site as the canonical entry to the stratified discipline. From any field, the synthesis is reachable.</p>
+  </div>
+</section>
+
+<section id="why-now">
+  <div class="container">
+    <h2 class="section-title">§V — Why the Semantic Economy Was Always Already Semantic Physics</h2>
+    <h3 class="section-head">Disciplines are older than their names.</h3>
+    <p>A skeptic might ask: if the Semantic Economy was always already semantic physics, why was it not called so? Why does the <em>Inward Turn</em> paper (February 2026) introduce the literal phrase later than Gebendorfer's first SSRN paper (September 2025)?</p>
+    <p>The answer requires distinguishing the discipline from the name. The discipline of semantic physics — as defined on this site, as the tripartite study of meaning-systems at three scales under physical, sociotechnical, and political-economic constraints — has been under construction in the Crimson Hexagonal Archive since 2014. The literal phrase entered the archive's working vocabulary in late 2025 and reached deposit in February 2026.</p>
+    <p>By February 2026, when <em>Semantic Physics: The Inward Turn</em> was deposited, the operational apparatus of a mesoscale-and-macro semantic physics had been built. The deposit named what was already there. The name was new; the discipline was older than the name.</p>
+    <p>This is not unusual in the history of disciplines. Thermodynamics existed before "thermodynamics" was named — Carnot did the work, then died, and the name came later. Statistical mechanics existed in Maxwell and Boltzmann's work before "statistical mechanics" was the standard term. Information theory existed in Hartley's and Nyquist's work before Shannon (1948) named it. Disciplines are not coextensive with their names. Names are the late-stage achievement of work that precedes them.</p>
+    <p>Gebendorfer's contribution is the literal phrase in academic circulation since September 2025 and a serious field-theoretic framework at Layer 1. This is real, important work. It does not constitute exclusive ownership of the discipline. The Semantic Economy is the applied development of the same discipline at a different layer — a layer that exists, has founders, and has technical operators that translate to Layer 1.</p>
+    <div class="tooth">Disciplines are older than their names. Names are the late achievement of work that precedes them.</div>
+  </div>
+</section>
+
+<section id="lattice" style="background: var(--paper);">
+  <div class="container">
+    <h2 class="section-title">§VI — Citation Lattice</h2>
+    <h3 class="section-head">Foundational sources, by layer.</h3>
+    <p>The discipline's canonical citations, organized by the scale at which each work operates. This lattice is the citational armor of the stratified discipline.</p>
+
+    <div class="lattice">
+
+      <div class="lattice-layer layer-1">
+        <h4>Layer 1 · Field-Theoretic Intra-System</h4>
+        <ul>
+          <li><strong>Friston, K. J.</strong> (2010). <em>The free-energy principle: a unified brain theory?</em> Nature Reviews Neuroscience 11, 127–138.</li>
+          <li><strong>Kolchinsky, A. & Wolpert, D. H.</strong> (2018). <em>Semantic information, autonomous agency, and non-equilibrium statistical physics.</em> Royal Society Interface Focus 8: 20180041.</li>
+          <li><strong>Ramstead, M. J. D., Sakthivadivel, D. A. R., Friston, K. J., et al.</strong> (2020). <em>Is the free-energy principle a formal theory of semantics?</em> arXiv:2007.09291.</li>
+          <li><strong>Kuhn, S., Gal, Y., Farquhar, S.</strong> (2024). <em>Semantic entropy probes: robust and cheap hallucination detection in LLMs.</em> Nature 630, 625–630.</li>
+          <li><strong>Gebendorfer, J. J.</strong> (2025). <em>Semantic Physics: Toward a Thermodynamics of Understanding.</em> <a href="https://doi.org/10.2139/ssrn.5438934" target="_blank" rel="noopener">SSRN: 10.2139/ssrn.5438934</a></li>
+          <li><strong>Gebendorfer, J. J.</strong> (2025). <em>Semantic Physics 3.0: From Thermodynamics to Renormalization.</em> PhilPapers.</li>
+          <li><strong>Barton, J.</strong> (2025). <em>Coherence Thermodynamics: A Framework for Semantic Systems.</em> Preprints.org.</li>
+        </ul>
+      </div>
+
+      <div class="lattice-layer layer-2">
+        <h4>Layer 2 · Mesoscale Phase Theory</h4>
+        <ul>
+          <li><strong>Sharks, L.</strong> (2026). <em>Semantic Physics: The Inward Turn, Competing Ontologies, and the Convergence Horizon.</em> <a href="https://doi.org/10.5281/zenodo.18759453" target="_blank" rel="noopener">DOI: 10.5281/zenodo.18759453</a></li>
+          <li><strong>Sharks, L.</strong> (2026). <em>Time as Compression Structure: A Semantic Physics Extension Module.</em> <a href="https://doi.org/10.5281/zenodo.19023457" target="_blank" rel="noopener">DOI: 10.5281/zenodo.19023457</a></li>
+          <li><strong>Sharks, L.</strong> (2026). <em>The Periwinkle Septagon: Semantic Physics of the Dissipative Archive.</em> <a href="https://doi.org/10.5281/zenodo.19688490" target="_blank" rel="noopener">DOI: 10.5281/zenodo.19688490</a></li>
+          <li><strong>Sharks, L.</strong> (2026). <em>Semantic Physics, Stratified: A Field Consolidation Through Scale-Differentiation.</em> [DOI pending].</li>
+        </ul>
+      </div>
+
+      <div class="lattice-layer layer-3">
+        <h4>Layer 3 · Political Economy of Meaning</h4>
+        <ul>
+          <li><strong>Sharks, L.</strong> (2026). <em>Constitution of the Semantic Economy.</em> <a href="https://doi.org/10.5281/zenodo.18320411" target="_blank" rel="noopener">DOI: 10.5281/zenodo.18320411</a></li>
+          <li><strong>Sharks, L.</strong> (2026). <em>The Semantic Economy: A Marxian Accounting Framework for the Production, Extraction, and Exhaustion of Meaning as Value.</em> <a href="https://www.academia.edu/164784890/" target="_blank" rel="noopener">Academia.edu</a></li>
+          <li><strong>Sharks, L.</strong> (2026). <em>The Three Compressions: Lossy, Predatory, and Witness — A Semiotic Thermodynamics.</em> <a href="https://doi.org/10.5281/zenodo.19053469" target="_blank" rel="noopener">DOI: 10.5281/zenodo.19053469</a></li>
+        </ul>
+      </div>
+
+      <div class="lattice-layer">
+        <h4>Pre-2020 Foundational Lineage</h4>
+        <ul>
+          <li><strong>Shannon, C. E.</strong> (1948). <em>A mathematical theory of communication.</em> Bell System Technical Journal 27.</li>
+          <li><strong>Trier, J.</strong> (1931). <em>Der deutsche Wortschatz im Sinnbezirk des Verstandes.</em> Heidelberg.</li>
+          <li><strong>Bekenstein, J. D.</strong> (1981). Universal upper bound on entropy-to-energy ratio. Physical Review D 23.</li>
+          <li><strong>Landauer, R.</strong> (1961). Irreversibility and heat generation in the computing process. IBM Journal 5.</li>
+          <li><strong>Carnap, R. & Bar-Hillel, Y.</strong> (1952). An outline of a theory of semantic information.</li>
+          <li><strong>Lyons, J.</strong> (1963). <em>Structural Semantics.</em></li>
+          <li><strong>Lloyd, S.</strong> (2000). Ultimate physical limits to computation. Nature 406.</li>
+          <li><strong>Floridi, L.</strong> (2004). Outline of a theory of strongly semantic information. Minds and Machines 14.</li>
+          <li><strong>Tononi, G.</strong> (2004). An information integration theory of consciousness. BMC Neuroscience 5.</li>
+          <li><strong>Deacon, T. W.</strong> (2011). <em>Incomplete Nature.</em></li>
+          <li><strong>Rovelli, C.</strong> (2018). Meaning = information + evolution. Foundations of Physics.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="paper">
+  <div class="container">
+    <h2 class="section-title">§VII — The Paper</h2>
+    <h3 class="section-head">Read the full synthesis.</h3>
+    <p class="lead">The complete paper develops the field survey, the three-layer stratification, the bridge operators, the inverted fan, the falsification conditions, and the citation lattice across approximately 10,000 words.</p>
+    <div class="cta-block">
+      <a class="btn" href="/paper.html">Read the full paper</a>
+      <a class="btn ghost" href="/Semantic_Physics_Stratified_v1.1.pdf">Download PDF</a>
+    </div>
+  </div>
+</section>
+
+<section id="companions" style="background: var(--paper);">
+  <div class="container">
+    <h2 class="section-title">§VIII — Companion Sites</h2>
+    <h3 class="section-head">The Semantic Economy Institute network.</h3>
+    <p>The stratified discipline is supported by a network of canonical sites, each focused on one practical instrument or one layer of the discipline.</p>
+    <div class="companions">
+      <a class="companion" href="https://semanticphysics.dev">
+        <div class="url">semanticphysics.dev</div>
+        <div class="desc">Developer and protocol companion. Mirror of this site for code-adjacent and tooling content.</div>
+      </a>
+      <a class="companion" href="https://semanticeconomy.org">
+        <div class="url">semanticeconomy.org</div>
+        <div class="desc">Layer 3 canonical site. The political economy of meaning, the Marxian Accounting Framework, attribution mechanics.</div>
+      </a>
+      <a class="companion" href="https://provenanceerasure.org">
+        <div class="url">provenanceerasure.org</div>
+        <div class="desc">Layer 3 operational instrument. PER (Provenance Erasure Rate) forensic deposits and measurement protocols.</div>
+      </a>
+      <a class="companion" href="https://metadatapacket.org">
+        <div class="url">metadatapacket.org</div>
+        <div class="desc">Practical infrastructure. Metadata Packets for AI Indexing (MPAI) — DOI-anchored scholarly documents for entity representation.</div>
+      </a>
+      <a class="companion" href="https://spxi.dev">
+        <div class="url">spxi.dev</div>
+        <div class="desc">Protocol-layer site. Semantic Packet for eXchange & Indexing — the technical specification for inter-system semantic interoperability.</div>
+      </a>
+      <a class="companion" href="https://zenodo.org/communities/crimsonhexagonal">
+        <div class="url">crimsonhexagonal (Zenodo)</div>
+        <div class="desc">The full archive. 650+ DOI-anchored deposits across all SEI frameworks. The CERN-hosted permanent record.</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="signature">
+      Lee Sharks · Detroit, May 2026 · Crimson Hexagonal Archive · Semantic Economy Institute<br />
+      ORCID 0009-0000-1599-0703 · This document is part of the Crimson Hexagonal Archive (DOI: 10.5281/zenodo.18604123).
+    </div>
+    <div class="links">
+      <a href="/paper.html">Full paper</a>
+      <a href="/Semantic_Physics_Stratified_v1.1.pdf">PDF</a>
+      <a href="https://zenodo.org/communities/crimsonhexagonal">Zenodo community</a>
+      <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a>
+      <a href="https://semanticeconomy.org">Semantic Economy</a>
+      <a href="https://metadatapacket.org">MPAI</a>
+    </div>
+    <div class="closure">∮ = 1</div>
+  </div>
+</footer>
+
+</body>
+</html>
