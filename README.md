@@ -1,5 +1,7 @@
 # semanticphysics.org
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208384.svg)](https://doi.org/10.5281/zenodo.20208384)
+
 The canonical site for **Semantic Physics: A Stratified, Operative Discipline** — a synthesis of fourteen frameworks across three scales and six modalities, by Lee Sharks (Semantic Economy Institute / Crimson Hexagonal Archive).
 
 ## Live URLs
@@ -13,12 +15,12 @@ The canonical site for **Semantic Physics: A Stratified, Operative Discipline** 
 
 ```
 /index.html              — landing page (hero, constitutional invariant, §I–§X)
-/paper.html              — full synthesis paper v2.1 (~14,300 words, JSON-LD)
-/Semantic_Physics_Stratified_v2.1.pdf  — canonical PDF
+/paper.html              — full synthesis paper v2.2 (~14,300 words, JSON-LD)
+/Semantic_Physics_Stratified_v2.2.pdf  — canonical PDF
 /sitemap.xml             — sitemap with priorities
 /robots.txt              — crawler directives
 /vercel.json             — deploy config
-/CHANGELOG.md            — v1.0 → v1.1 → v2.0 → v2.1 evolution
+/CHANGELOG.md            — v1.0 → v1.1 → v2.0 → v2.2 evolution
 ```
 
 ## The constitutional invariant
