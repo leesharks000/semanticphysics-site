@@ -1,25 +1,54 @@
 # semanticphysics.org
 
-Canonical site for the discipline of semantic physics — a stratified discipline of meaning with three scales (micro, meso, macro), founders at each layer, and bridge operators that traverse them.
+The canonical site for **Semantic Physics: A Stratified, Operative Discipline** — a synthesis of fourteen frameworks across three scales and six modalities, by Lee Sharks (Semantic Economy Institute / Crimson Hexagonal Archive).
 
-Author: Lee Sharks · Crimson Hexagonal Archive · Semantic Economy Institute
+## Live URLs
 
-This is a static site. Deploy directly to any static host (Vercel, Netlify, Cloudflare Pages, GitHub Pages).
+- Production: https://semanticphysics.org
+- Mirror: https://semanticphysics.dev
+- ORCID: https://orcid.org/0009-0000-1599-0703
+- Zenodo community: https://zenodo.org/communities/crimsonhexagonal
 
 ## Structure
 
-- `public/index.html` — main landing page with the three-layer stratification, bridge operators, inverted fan, citation lattice
-- `public/paper.html` — full synthesis paper as rendered HTML
-- `public/Semantic_Physics_Stratified_v1.pdf` — PDF of the paper
-- `public/robots.txt` and `public/sitemap.xml` — crawlability
+```
+/index.html              — landing page (hero, constitutional invariant, §I–§X)
+/paper.html              — full synthesis paper v2.1 (~14,300 words, JSON-LD)
+/Semantic_Physics_Stratified_v2.1.pdf  — canonical PDF
+/sitemap.xml             — sitemap with priorities
+/robots.txt              — crawler directives
+/vercel.json             — deploy config
+/CHANGELOG.md            — v1.0 → v1.1 → v2.0 → v2.1 evolution
+```
+
+## The constitutional invariant
+
+> **∮ = 1 − PER**
+>
+> The integrity of a semantic system is inversely proportional to the rate at which its provenance-bearing relations are severed during transmission.
 
 ## Companion sites
 
-- semanticphysics.dev (mirror)
-- semanticeconomy.org (Layer 3)
-- provenanceerasure.org (Layer 3 instrument)
-- metadatapacket.org (practical infrastructure)
-- spxi.dev (protocol)
-- zenodo.org/communities/crimsonhexagonal (full archive)
+- semanticeconomy.org — diagnostic subdiscipline
+- spxi.dev — operative protocol for entity inscription
+- provenanceerasure.org — diagnostic instrument
+- metadatapacket.org — metadata architecture
+- holographickernel.org — operative principle
 
-∮ = 1
+## License
+
+Content licensed CC BY 4.0. Code (HTML/CSS) likewise CC BY 4.0.
+
+## Deployment
+
+Static site. Deploy to Vercel:
+
+```
+vercel --prod
+```
+
+Or push to a GitHub repo and import via the Vercel dashboard.
+
+---
+
+∮ = 1 − PER
