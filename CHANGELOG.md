@@ -1,5 +1,27 @@
 # CHANGELOG — Semantic Physics, Stratified
 
+## v2.4 — 2026-05-17 (Framework 15 canonical reposition; EA-GLAS-01 becomes canonical entry)
+
+**Canonical DOI:** [10.5281/zenodo.20259297](https://doi.org/10.5281/zenodo.20259297) (EA-GLAS-01 v1.0)
+
+EA-GLAS-01 — *Audited Claims for the Semantic Deviation Research Program: The Glas Function — An External-Format Restatement* — becomes the **primary canonical object for Framework 15**. The page restructure replaces the institutional Glas / Lagrange Observatory! / torus-topology framing with an audited-research-program framing. The previous canonical materials (the four pre-registered protocol papers and the institutional manifesto) are preserved at their stable DOIs and presented as the empirical apparatus the audit operates on.
+
+### Why the reposition
+Following sustained adversarial review across multiple AI substrates and unprimed-external readers, the program needed a Layer-A-only document — separating empirical claims from philosophical interpretation and institutional vocabulary — that external researchers in alignment, mechanistic interpretability, and causal inference could engage without committing to the Crimson Hexagonal apparatus. EA-GLAS-01 supplies that document. Making it the canonical site entry implements the audit's first recommendation: external legibility precedes further theoretical extension.
+
+### Site changes
+- **`/framework-15.html`** fully restructured. New §I — The Audit (canonical-object panel, F1/F2/F3 operationalizations, narrowed audited claim, four pre-registered predictions, anti-Goodhart mechanism design, component decomposition). New §II — The Pre-Registered Protocols (the four protocols presented as the empirical apparatus the audit evaluates). New §III — Roadmap (budgeted twelve-month research plan). New §IV — Full Deposit Register.
+- **`/EA-GLAS-01.pdf`** uploaded as static asset.
+- **`index.html`** updates: hero CTA button label updated to "Framework 15 (Audited)"; §I framework grid card and §II operational-module block lead with the audit as canonical; §VIII citation lattice reorders Framework 15 entries with EA-GLAS-01 first; §X companion sites entry updated.
+- **`sitemap.xml`** updated with EA-GLAS-01.pdf at high priority (0.95).
+
+### What persists unchanged
+The four pre-registered protocol papers (DOIs 20251736, 20251738, 20251740, 20251742) remain accessible at their stable DOIs with their full content unchanged. The Semantic Deviation Principle (Sharks v0.2 Final, DOI 20250736) remains the founding formulation. The v2.0 operational re-edition (DOI 20252584) remains in the version chain. None of the underlying deposits is amended; the reposition operates at the site canonical-entry level only.
+
+### What this means for citers
+External researchers citing Framework 15 should now cite EA-GLAS-01 (DOI: 10.5281/zenodo.20259297) as the canonical entry. The pre-registered protocol papers remain citable independently for their specific empirical methodologies; the audit document is the externally-legible synthesis.
+
+
 ## v2.3 — 2026-05-17 (Framework 15 inauguration)
 
 **Framework 15 Manifesto DOI:** [10.5281/zenodo.20251736](https://doi.org/10.5281/zenodo.20251736)
