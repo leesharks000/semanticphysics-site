@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://semanticphysics.org/</loc><lastmod>2026-05-15</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://semanticphysics.org/</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://semanticphysics.org/framework-15.html</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>0.95</priority></url>
   <url><loc>https://semanticphysics.org/paper.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
   <url><loc>https://semanticphysics.org/matrix.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://semanticphysics.org/Semantic_Physics_Stratified_v2.2.pdf</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
@@ -10,8 +11,28 @@
     <priority>0.85</priority>
   </url>
   <url>
+    <loc>https://semanticphysics.org/EA-SEI-FW15-MANIFESTO_v1.0.pdf</loc>
+    <lastmod>2026-05-17</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://semanticphysics.org/EA-SEI-MM-AI-01_v2.0.pdf</loc>
+    <lastmod>2026-05-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://semanticphysics.org/EA-SEI-MM-02_v2.0.pdf</loc>
+    <lastmod>2026-05-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://semanticphysics.org/EA-SEI-MM-AI-02_v2.0.pdf</loc>
+    <lastmod>2026-05-17</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
     <loc>https://semanticphysics.org/deposits.html</loc>
-    <lastmod>2026-05-16</lastmod>
+    <lastmod>2026-05-17</lastmod>
     <priority>0.90</priority>
   </url>
 </urlset>

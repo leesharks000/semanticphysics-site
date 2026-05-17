@@ -1,5 +1,30 @@
 # CHANGELOG — Semantic Physics, Stratified
 
+## v2.3 — 2026-05-17 (Framework 15 inauguration)
+
+**Framework 15 Manifesto DOI:** [10.5281/zenodo.20251736](https://doi.org/10.5281/zenodo.20251736)
+
+The Semantic Physics matrix gains its fifteenth framework: the **Measurement of Meaning module**, operated by Nobel Glas (Heteronym Registry Position 8 of 12, Adversarial Topologist) from **Lagrange Observatory! (LO!)**. The four prior modes of the Crimson Hexagonal corpus — descriptive, diagnostic, structural, operative — are joined by a fifth: **empirical measurement** with pre-registered protocols, falsification thresholds frozen at deposit, and full code/judge-model/query-set release.
+
+Framework 15 operates *on* Sharks's Semantic Deviation Principle (EA-SEI-MM-01 v0.2 Final, DOI: 10.5281/zenodo.20250736); it does not re-derive the principle. The synthesis paper's fourteen-framework architecture is preserved. Framework 15 is the discipline's measurement arm — adding apparatus to the existing theory, with its own institutional topology (torus T²) and verification condition (∮ = (m, n) | m + n ≥ 3).
+
+### Site additions
+- **`/framework-15.html`** — new standalone page for the Lagrange Observatory! module. Glas as Director, Sharks as Founder of the discipline. Lists all four pre-registered protocol papers with DOIs, Glas's institutional septad, and the relation to Sharks's discipline.
+- **Index.html updates (five surgical edits)**: Framework 15 button in hero CTA; Framework 15 / Lagrange Observatory! card in §I framework grid; Framework 15 operational-module block after §II stratification; Framework 15 sub-section in §VIII citation lattice with all six new DOIs; Framework 15 entry added to §X companion sites.
+- **Sitemap updated** with `/framework-15.html` and the four FW15 PDFs.
+
+### Deposited (May 17, 2026)
+- **EA-SEI-FW15-MANIFESTO v1.0** — Framework 15 institutional manifesto. DOI: [10.5281/zenodo.20251736](https://doi.org/10.5281/zenodo.20251736).
+- **EA-SEI-MM-AI-01 v2.0** — The AI System as Closed-System Test Bed. Pre-registered protocol; signed per-token deviation; two-level closed-system measurement. DOI: [10.5281/zenodo.20251738](https://doi.org/10.5281/zenodo.20251738).
+- **EA-SEI-MM-02 v2.0** — Measuring Meaning in Retrieval Basins. 90-day winding-number protocol; two instrument classes (Class R / Class P); three-condition control; frozen extractor commitment. DOI: [10.5281/zenodo.20251740](https://doi.org/10.5281/zenodo.20251740).
+- **EA-SEI-MM-AI-02 v2.0** — The Deviation-Optimized Language Model. DPO-style restructure; frozen judge model with adversarial pre-training validation; Slop Composite Index; honest budget ($3,000–$3,900). DOI: [10.5281/zenodo.20251742](https://doi.org/10.5281/zenodo.20251742).
+
+### Architectural decisions documented
+- **Sharks remains Founder of Semantic Physics; Glas is Director of Framework 15.** Founders and operatives are different roles. The discipline operates through multiple named voices, not one author with subpersonalities — Framework 15 makes that public.
+- **The 14-framework synthesis matrix is unchanged.** Framework 15 is operational, not scalar/modal; it does not add a scale or modality, it adds the measurement-apparatus arm that operates across the existing matrix.
+- **Lagrange Observatory! topology is T².** Pre-registration is a winding-number commitment; non-contractible cycles cannot be collapsed without destroying the measurement. The torus generalizes the constitutional invariant: ∮ = (m, n) | m + n ≥ 3.
+
+
 ## v2.2 — 2026-05-15 (perfective pass + Zenodo deposit)
 
 **DOI:** [10.5281/zenodo.20208384](https://doi.org/10.5281/zenodo.20208384)
