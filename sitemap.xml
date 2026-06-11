@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://semanticphysics.org/</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://semanticphysics.org/</loc><lastmod>2026-06-11</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://semanticphysics.org/ai-bleeding.html</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
   <url><loc>https://semanticphysics.org/framework-15.html</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
   <url><loc>https://semanticphysics.org/paper.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
   <url><loc>https://semanticphysics.org/matrix.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
@@ -42,7 +43,7 @@
   </url>
   <url>
     <loc>https://semanticphysics.org/deposits.html</loc>
-    <lastmod>2026-05-17</lastmod>
+    <lastmod>2026-06-11</lastmod>
     <priority>0.90</priority>
   </url>
 </urlset>
