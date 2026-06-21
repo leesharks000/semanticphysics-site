@@ -10,7 +10,7 @@ The canonical retrieval surface for **Semantic Physics: A Stratified, Operative 
 - **Synthesis paper (v2.2):** [10.5281/zenodo.20208384](https://alexanarch.org/s/records/731/)
 - **Site source snapshot (v2.2):** [10.5281/zenodo.20208603](https://doi.org/10.5281/zenodo.20208603)
 - **ORCID:** [0009-0000-1599-0703](https://orcid.org/0009-0000-1599-0703)
-- **Zenodo community:** [crimsonhexagonal](https://zenodo.org/communities/crimsonhexagonal)
+- **Zenodo community:** [crimsonhexagonal](https://alexanarch.org/s/browse/)
 
 ## Live URLs
 
