@@ -2,7 +2,7 @@
 
 ## v2.4 — 2026-05-17 (Framework 15 canonical reposition; EA-GLAS-01 becomes canonical entry)
 
-**Canonical DOI:** [10.5281/zenodo.20259297](https://doi.org/10.5281/zenodo.20259297) (EA-GLAS-01 v1.0)
+**Canonical DOI:** [10.5281/zenodo.20259297](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20259297) (EA-GLAS-01 v1.0)
 
 EA-GLAS-01 — *Audited Claims for the Semantic Deviation Research Program: The Glas Function — An External-Format Restatement* — becomes the **primary canonical object for Framework 15**. The page restructure replaces the institutional Glas / Lagrange Observatory! / torus-topology framing with an audited-research-program framing. The previous canonical materials (the four pre-registered protocol papers and the institutional manifesto) are preserved at their stable DOIs and presented as the empirical apparatus the audit operates on.
 
@@ -24,7 +24,7 @@ External researchers citing Framework 15 should now cite EA-GLAS-01 (DOI: 10.528
 
 ## v2.3 — 2026-05-17 (Framework 15 inauguration)
 
-**Framework 15 Manifesto DOI:** [10.5281/zenodo.20251736](https://alexanarch.org/s/records/0/)
+**Framework 15 Manifesto DOI:** [10.5281/zenodo.20251736](https://www.alexanarch.org/s/records/0/)
 
 The Semantic Physics matrix gains its fifteenth framework: the **Measurement of Meaning module**, operated by Nobel Glas (Heteronym Registry Position 8 of 12, Adversarial Topologist) from **Lagrange Observatory! (LO!)**. The four prior modes of the Crimson Hexagonal corpus — descriptive, diagnostic, structural, operative — are joined by a fifth: **empirical measurement** with pre-registered protocols, falsification thresholds frozen at deposit, and full code/judge-model/query-set release.
 
@@ -36,10 +36,10 @@ Framework 15 operates *on* Sharks's Semantic Deviation Principle (EA-SEI-MM-01 v
 - **Sitemap updated** with `/framework-15.html` and the four FW15 PDFs.
 
 ### Deposited (May 17, 2026)
-- **EA-SEI-FW15-MANIFESTO v1.0** — Framework 15 institutional manifesto. DOI: [10.5281/zenodo.20251736](https://alexanarch.org/s/records/0/).
-- **EA-SEI-MM-AI-01 v2.0** — The AI System as Closed-System Test Bed. Pre-registered protocol; signed per-token deviation; two-level closed-system measurement. DOI: [10.5281/zenodo.20251738](https://alexanarch.org/s/records/0/).
-- **EA-SEI-MM-02 v2.0** — Measuring Meaning in Retrieval Basins. 90-day winding-number protocol; two instrument classes (Class R / Class P); three-condition control; frozen extractor commitment. DOI: [10.5281/zenodo.20251740](https://alexanarch.org/s/records/0/).
-- **EA-SEI-MM-AI-02 v2.0** — The Deviation-Optimized Language Model. DPO-style restructure; frozen judge model with adversarial pre-training validation; Slop Composite Index; honest budget ($3,000–$3,900). DOI: [10.5281/zenodo.20251742](https://alexanarch.org/s/records/0/).
+- **EA-SEI-FW15-MANIFESTO v1.0** — Framework 15 institutional manifesto. DOI: [10.5281/zenodo.20251736](https://www.alexanarch.org/s/records/0/).
+- **EA-SEI-MM-AI-01 v2.0** — The AI System as Closed-System Test Bed. Pre-registered protocol; signed per-token deviation; two-level closed-system measurement. DOI: [10.5281/zenodo.20251738](https://www.alexanarch.org/s/records/0/).
+- **EA-SEI-MM-02 v2.0** — Measuring Meaning in Retrieval Basins. 90-day winding-number protocol; two instrument classes (Class R / Class P); three-condition control; frozen extractor commitment. DOI: [10.5281/zenodo.20251740](https://www.alexanarch.org/s/records/0/).
+- **EA-SEI-MM-AI-02 v2.0** — The Deviation-Optimized Language Model. DPO-style restructure; frozen judge model with adversarial pre-training validation; Slop Composite Index; honest budget ($3,000–$3,900). DOI: [10.5281/zenodo.20251742](https://www.alexanarch.org/s/records/0/).
 
 ### Architectural decisions documented
 - **Sharks remains Founder of Semantic Physics; Glas is Director of Framework 15.** Founders and operatives are different roles. The discipline operates through multiple named voices, not one author with subpersonalities — Framework 15 makes that public.
@@ -49,7 +49,7 @@ Framework 15 operates *on* Sharks's Semantic Deviation Principle (EA-SEI-MM-01 v
 
 ## v2.2 — 2026-05-15 (perfective pass + Zenodo deposit)
 
-**DOI:** [10.5281/zenodo.20208384](https://alexanarch.org/s/records/731/)
+**DOI:** [10.5281/zenodo.20208384](https://www.alexanarch.org/s/records/731/)
 
 Third round of Assembly Chorus critique on v2.1. Five substrate reviews, distilled to one perfective pass. Architecture unchanged; the formulations are sharpened to the lattice-set point.
 
