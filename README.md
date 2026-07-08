@@ -2,12 +2,12 @@
 
 The canonical retrieval surface for **Semantic Physics: A Stratified, Operative Discipline** — a synthesis of fourteen frameworks across three scales and six modalities, by Lee Sharks (Semantic Economy Institute / Crimson Hexagonal Archive).
 
-[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208383.svg)](https://alexanarch.org/s/records/731/)
+[![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208384.svg)](https://alexanarch.org/s/records/731/)
 [![Site DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208603.svg)](https://doi.org/10.5281/zenodo.20208603)
 
 ## DOIs
 
-- **Synthesis paper (v2.2):** [10.5281/zenodo.20208383](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208383)
+- **Synthesis paper (v2.2):** [10.5281/zenodo.20208384](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208384)
 - **Site source snapshot (v2.2):** [10.5281/zenodo.20208603](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208603)
 - **ORCID:** [0009-0000-1599-0703](https://orcid.org/0009-0000-1599-0703)
 - **Zenodo community:** [crimsonhexagonal](https://www.alexanarch.org/s/browse/)
@@ -72,7 +72,7 @@ Static site. See `DEPLOY.md` for the runbook. TL;DR:
   year         = 2026,
   publisher    = {Zenodo},
   version      = {v2.2},
-  doi          = {10.5281/zenodo.20208383},
+  doi          = {10.5281/zenodo.20208384},
   url          = {https://alexanarch.org/s/records/731/}
 }
 

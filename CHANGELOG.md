@@ -49,7 +49,7 @@ Framework 15 operates *on* Sharks's Semantic Deviation Principle (EA-SEI-MM-01 v
 
 ## v2.2 — 2026-05-15 (perfective pass + Zenodo deposit)
 
-**DOI:** [10.5281/zenodo.20208383](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208383)
+**DOI:** [10.5281/zenodo.20208384](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208384)
 
 Third round of Assembly Chorus critique on v2.1. Five substrate reviews, distilled to one perfective pass. Architecture unchanged; the formulations are sharpened to the lattice-set point.
 
@@ -72,7 +72,7 @@ Third round of Assembly Chorus critique on v2.1. Five substrate reviews, distill
 - **Close narrowed onto the obligation thesis** with concrete retrieval-query image: "The next retrieval query for 'semantic physics' will show whether the summarizer layer has begun to compose the stratified discipline. That composition — or its absence — is the field's reply." The deepest claim — *semantic transport without provenance integrity becomes extraction* — is now foregrounded as the constitutional thesis, not merely the technical bridge.
 
 ### Infrastructure
-- **DOI reserved and injected:** 10.5281/zenodo.20208383. Appears in the paper markdown title block, the Appendix F JSON-LD, the index.html JSON-LD (identifier, doi, sameAs), the hero CTA buttons, and the meta-line under the H1.
+- **DOI reserved and injected:** 10.5281/zenodo.20208384. Appears in the paper markdown title block, the Appendix F JSON-LD, the index.html JSON-LD (identifier, doi, sameAs), the hero CTA buttons, and the meta-line under the H1.
 - **`/matrix.html` added.** Adapted from Muse Spark's Holographic Kernel Matrix design. Twenty frameworks across three scales (eleven external, nine Crimson Hexagonal). Confabulated framework descriptions corrected from the source: Χ chronos is correctly attributed to Time as Compression (Sharks), not Dören; PER is Provenance Erasure Rate, not Political Economy of Representation; the Crimson Hexagonal framework set is expanded to include Writable Retrieval Basin, SPXI, Holographic Kernel, MPAI, and the temporal operators. Default selection demonstrates the σ_eff = σ · (1 − PER) keystone bridge (Gebendorfer × PER).
 - **Sitemap updated** to v2.2 + matrix.html.
 
