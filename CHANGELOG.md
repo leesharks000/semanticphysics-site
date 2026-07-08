@@ -36,8 +36,8 @@ Framework 15 operates *on* Sharks's Semantic Deviation Principle (EA-SEI-MM-01 v
 - **Sitemap updated** with `/framework-15.html` and the four FW15 PDFs.
 
 ### Deposited (May 17, 2026)
-- **EA-SEI-FW15-MANIFESTO v1.0** — Framework 15 institutional manifesto. DOI: [10.5281/zenodo.20251736](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736).
-- **EA-SEI-MM-AI-01 v2.0** — The AI System as Closed-System Test Bed. Pre-registered protocol; signed per-token deviation; two-level closed-system measurement. DOI: [10.5281/zenodo.20251738](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251738).
+- **EA-SEI-FW15-MANIFESTO v1.0** — Framework 15 institutional manifesto. DOI: [10.5281/zenodo.20251735](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251735).
+- **EA-SEI-MM-AI-01 v2.0** — The AI System as Closed-System Test Bed. Pre-registered protocol; signed per-token deviation; two-level closed-system measurement. DOI: [10.5281/zenodo.20251737](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251737).
 - **EA-SEI-MM-02 v2.0** — Measuring Meaning in Retrieval Basins. 90-day winding-number protocol; two instrument classes (Class R / Class P); three-condition control; frozen extractor commitment. DOI: [10.5281/zenodo.20251740](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251740).
 - **EA-SEI-MM-AI-02 v2.0** — The Deviation-Optimized Language Model. DPO-style restructure; frozen judge model with adversarial pre-training validation; Slop Composite Index; honest budget ($3,000–$3,900). DOI: [10.5281/zenodo.20251742](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251742).
 
