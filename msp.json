@@ -1,0 +1,29 @@
+{
+  "surface_id": "semanticphysics.org",
+  "canonical_url": "https://semanticphysics.org/",
+  "axn": "AXN:0281.GOVERNANCE.♉♠️🪦❄️⛳🔥",
+  "deposit_number": 731,
+  "title": "EA-SEI-FF-01 · Formal Foundations of Semantic Physics",
+  "object_state": "canonical",
+  "tier": 1,
+  "register": "narrative",
+  "skin": {},
+  "doors": [
+    {
+      "label": "Read the formal foundations",
+      "href": "https://www.alexanarch.org/s/records/731/"
+    },
+    {
+      "label": "Open Framework 15 (Measurement of Meaning)",
+      "href": "https://www.alexanarch.org/s/records/108/"
+    },
+    {
+      "label": "Enter the archive",
+      "href": "https://www.alexanarch.org/"
+    }
+  ],
+  "index_files": [
+    "index.html"
+  ],
+  "notes": "Tier 1 mechanical. Field site for semantic physics. Nuclei pending session C."
+}

@@ -543,10 +543,43 @@ footer .closure {
   .layer-box .layer-meta { grid-template-columns: 1fr; gap: 4px; }
   .layer-box .layer-meta dt { padding-top: 8px; }
 }
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:nowrap;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:#3c3e37;border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
 </style>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"Zenodo DOI Resolution Index","description":"Maps 1,817 defunct Zenodo DOIs to live Alexanarch records. Companion dataset to Zenodotus Book-Burning (AXN:01.GOVERNANCE).","url":"https://alexanarch.org/data/doi-resolution-index.json","sameAs":"https://alexanarch.org/s/records/4/","creator":{"@type":"Person","name":"Lee Sharks","identifier":"https://orcid.org/0009-0000-1599-0703"},"license":"https://creativecommons.org/licenses/by/4.0/","distribution":{"@type":"DataDownload","encodingFormat":"application/json","contentUrl":"https://alexanarch.org/data/doi-resolution-index.json"},"isPartOf":{"@type":"ScholarlyArticle","name":"Zenodotus Book-Burning: Loud Exclusion at Repository Scale","url":"https://alexanarch.org/s/records/1/"}}</script>
 </head>
 <body>
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">♉♠️🪦❄️⛳🔥 AXN:0281.GOVERNANCE</span><span class="st">EA-SEI-FF-01 · Formal Foundations of Semantic Physics</span><span class="st">OBJECT: CANONICAL</span><span>semanticphysics.org</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/731/">deposit #731</a></div>
+<!-- MSP-IDSTRIP-END -->
+
 
 <header class="top">
   <div class="container">
@@ -593,7 +626,7 @@ footer .closure {
     <div style="font-family: var(--sans); font-size: 0.72rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-mute); margin-bottom: 18px;">The Constitutional Invariant</div>
     <div style="font-family: var(--serif); font-size: 2.6rem; color: var(--crimson); line-height: 1.2; font-style: italic; margin-bottom: 22px;">∮ = 1 − PER</div>
     <p style="max-width: 560px; margin: 0 auto; font-size: 0.98rem; line-height: 1.65; color: var(--ink-soft);">The integrity of a semantic system is inversely proportional to the rate at which its <strong>provenance-bearing relations</strong> are erased: authorial lineage, labor-purpose, conceptual ancestry, community of practice, ancestral obligation, futural debt. Attribution loss is PER's minimal surface case. The discipline exists to keep PER → 0.</p>
-    <p style="max-width: 560px; margin: 22px auto 0; font-size: 0.93rem; line-height: 1.65; color: var(--ink-soft);">The invariant has a distributional companion. Where ∮ = 1 − PER is the <em>mean</em> accountable circulation, the <strong>Erasure Skew</strong> Ω is its second moment — the covariance of per-source provenance retention with source power (operationally the slope Ω = cov(w, ρ)/var(w), with power coordinate RC). The pair <strong>(∮, Ω)</strong> measures circulation <em>and its equity</em>: ∮ → 1 with Ω → 0 is full, evenly-distributed circulation; Ω &gt; 0 is circulation that flows, but only upward. Ω is the operator that distinguishes R1 (lossy) from R2 (predatory) in the Three Compressions. Specified in <a href="https://www.alexanarch.org/s/records/766/" style="color: var(--crimson);">EA-GLAS-03</a>; candidate operator #11.</p>
+    <p style="max-width: 560px; margin: 22px auto 0; font-size: 0.93rem; line-height: 1.65; color: var(--ink-soft);">The invariant has a distributional companion. Where ∮ = 1 − PER is the <em>mean</em> accountable circulation, the <strong>Erasure Skew</strong> Ω is its second moment — the covariance of per-source provenance retention with source power (operationally the slope Ω = cov(w, ρ)/var(w), with power coordinate RC). The pair <strong>(∮, Ω)</strong> measures circulation <em>and its equity</em>: ∮ → 1 with Ω → 0 is full, evenly-distributed circulation; Ω &gt; 0 is circulation that flows, but only upward. Ω is the operator that distinguishes R1 (lossy) from R2 (predatory) in the Three Compressions. Specified in <a class="axn-chip" href="https://www.alexanarch.org/s/records/766/" style="color: var(--crimson);">EA-GLAS-03</a>; candidate operator #11.</p>
   </div>
 </section>
 
@@ -689,7 +722,7 @@ footer .closure {
         <div class="label">Framework 15 · Audited · May 2026</div>
         <h4>The Audited Research Program — Measurement of Meaning</h4>
         <div class="authors">Nobel Glas · with Lee Sharks (founding formulation)</div>
-        <div class="desc">The discipline's <strong>audited measurement program</strong>. Canonical entry: <a href="/framework-15.html" style="color: #2a4a6b; font-weight: 600;">EA-GLAS-02</a> — a self-contained empirical white paper. Two primary operationalizations of the semantic field (F1/F2). Pre-registered falsifiable predictions with named datasets and frozen checkpoints. DPO training experiment. Six mechanism-design anti-Goodhart protections. 42 references across alignment, interpretability, causal inference, and psycholinguistics. <a href="/framework-15.html" style="color: #2a4a6b;">→ Read the measurement program</a> &nbsp;·&nbsp; Companion: <a href="https://www.alexanarch.org/s/records/766/" style="color: #2a4a6b;">EA-GLAS-03 (Erasure Skew)</a> — the power-conditioning of provenance loss, Ω as operator #11.</div>
+        <div class="desc">The discipline's <strong>audited measurement program</strong>. Canonical entry: <a href="/framework-15.html" style="color: #2a4a6b; font-weight: 600;">EA-GLAS-02</a> — a self-contained empirical white paper. Two primary operationalizations of the semantic field (F1/F2). Pre-registered falsifiable predictions with named datasets and frozen checkpoints. DPO training experiment. Six mechanism-design anti-Goodhart protections. 42 references across alignment, interpretability, causal inference, and psycholinguistics. <a href="/framework-15.html" style="color: #2a4a6b;">→ Read the measurement program</a> &nbsp;·&nbsp; Companion: <a class="axn-chip" href="https://www.alexanarch.org/s/records/766/" style="color: #2a4a6b;">EA-GLAS-03 (Erasure Skew)</a> — the power-conditioning of provenance loss, Ω as operator #11.</div>
       </div>
     </div>
   </div>
@@ -770,7 +803,7 @@ footer .closure {
     <div style="margin-top: 48px; padding: 24px 28px; background: rgba(42, 74, 107, 0.06); border-left: 4px solid #2a4a6b;">
       <div style="font-family: var(--sans); font-size: 0.74rem; text-transform: uppercase; letter-spacing: 0.14em; color: #2a4a6b; margin-bottom: 8px; font-weight: 700;">Framework 15 · The Audited Research Program</div>
       <h4 style="font-family: var(--serif); font-size: 1.4rem; margin: 4px 0 10px; font-weight: 600; color: var(--ink);">Measurement of Meaning — Externally-Evaluable Form</h4>
-      <p style="margin: 0 0 12px; font-size: 0.98rem; line-height: 1.6; color: var(--ink-soft); max-width: 720px;">The fourteen theoretical frameworks supply the theory. <strong>Framework 15 supplies the apparatus — audited.</strong> The canonical entry is <a href="https://www.alexanarch.org/s/records/738/" style="color: #2a4a6b; font-weight: 600;">EA-GLAS-02</a>: a self-contained empirical white paper with two primary operationalizations of the semantic field, pre-registered falsifiable predictions, a DPO training experiment, and six mechanism-design anti-Goodhart protections. 42 references across alignment, mechanistic interpretability, text degeneration, causal inference, and psycholinguistics.</p>
+      <p style="margin: 0 0 12px; font-size: 0.98rem; line-height: 1.6; color: var(--ink-soft); max-width: 720px;">The fourteen theoretical frameworks supply the theory. <strong>Framework 15 supplies the apparatus — audited.</strong> The canonical entry is <a class="axn-chip" href="https://www.alexanarch.org/s/records/738/" style="color: #2a4a6b; font-weight: 600;">EA-GLAS-02</a>: a self-contained empirical white paper with two primary operationalizations of the semantic field, pre-registered falsifiable predictions, a DPO training experiment, and six mechanism-design anti-Goodhart protections. 42 references across alignment, mechanistic interpretability, text degeneration, causal inference, and psycholinguistics.</p>
       <p style="margin: 0; font-size: 0.92rem; line-height: 1.5;"><a href="/framework-15.html" style="color: #2a4a6b; font-weight: 600; border-bottom: 1px dotted #2a4a6b; text-decoration: none;">→ See Framework 15 (canonical audit + protocols)</a></p>
     </div>
 
@@ -1113,7 +1146,7 @@ footer .closure {
     <div class="cta-block">
       <a class="btn" href="/paper.html">Read the full paper</a>
       <a class="btn ghost" href="/Semantic_Physics_Stratified_v2.2.pdf">Download PDF</a>
-      <a class="btn ghost" href="https://www.alexanarch.org/s/records/731/" rel="noopener">DOI · Zenodo</a>
+      <a class="btn ghost axn-chip" href="https://www.alexanarch.org/s/records/731/" rel="noopener">DOI · Zenodo</a>
     </div>
   </div>
 </section>
@@ -1156,6 +1189,10 @@ footer .closure {
   </div>
 </section>
 
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/731/">Read the formal foundations</a><a class="w-chip" href="https://www.alexanarch.org/s/records/108/">Open Framework 15 (Measurement of Meaning)</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: semanticphysics.org · canonical_url: https://semanticphysics.org/ · object_state: canonical · surface_observed_at: 2026-07-13T19:33:59Z · source_object_ids: deposit #731 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: STAGE1-PENDING · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T19:33:59Z · render_sha256 (of this file with this field&rsquo;s value set to null): STAGE1_HASH_PENDING · correction_log_url: https://github.com/leesharks000/semanticphysics-site/commits/main/index.html — EA-APPARATUS-01 v0.3, AXN:0281.GOVERNANCE.♉♠️🪦❄️⛳🔥</div>
+<!-- MSP-APPARATUS-END -->
 <footer>
   <div class="container">
     <div class="signature">
