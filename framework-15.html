@@ -1,20 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Framework 15 — The Audited Research Program · Semantic Physics</title>
-<meta name="description" content="Framework 15 of Semantic Physics: an empirical measurement program for the Semantic Deviation Principle. EA-GLAS-02 is the canonical white paper — two operationalizations of the semantic field, pre-registered falsifiable predictions, DPO training experiment, mechanism-design anti-Goodhart protections, 42 references across alignment, interpretability, and causal inference." />
-<meta name="author" content="Nobel Glas" />
-<meta name="keywords" content="Semantic Deviation Principle, audited research program, semantic field operationalization, closed-system trajectory deviation, signed deviation, slop measurement, Direct Preference Optimization, DPO ablation, reward hacking mitigation, Goodhart mechanism design, hallucination evaluation, FActScore, model collapse, pre-registered protocol, alignment evaluation, Nobel Glas, Lee Sharks, Semantic Physics, Framework 15" />
-
-<meta property="og:title" content="Framework 15 — The Audited Research Program" />
-<meta property="og:description" content="The Semantic Deviation research program in externally-evaluable form: three canonical operationalizations of the semantic field, four pre-registered falsifiable predictions, mechanism-design anti-Goodhart protections, full citational grounding in the alignment literature." />
-<meta property="og:url" content="https://semanticphysics.org/framework-15.html" />
-<meta property="og:type" content="website" />
-
-<link rel="canonical" href="https://semanticphysics.org/framework-15.html" />
-
+<meta content="Framework 15 of Semantic Physics: an empirical measurement program for the Semantic Deviation Principle. EA-GLAS-02 is the canonical white paper — two operationalizations of the semantic field, pre-registered falsifiable predictions, DPO training experiment, mechanism-design anti-Goodhart protections, 42 references across alignment, interpretability, and causal inference." name="description"/>
+<meta content="Nobel Glas" name="author"/>
+<meta content="Semantic Deviation Principle, audited research program, semantic field operationalization, closed-system trajectory deviation, signed deviation, slop measurement, Direct Preference Optimization, DPO ablation, reward hacking mitigation, Goodhart mechanism design, hallucination evaluation, FActScore, model collapse, pre-registered protocol, alignment evaluation, Nobel Glas, Lee Sharks, Semantic Physics, Framework 15" name="keywords"/>
+<meta content="Framework 15 — The Audited Research Program" property="og:title"/>
+<meta content="The Semantic Deviation research program in externally-evaluable form: three canonical operationalizations of the semantic field, four pre-registered falsifiable predictions, mechanism-design anti-Goodhart protections, full citational grounding in the alignment literature." property="og:description"/>
+<meta content="https://semanticphysics.org/framework-15.html" property="og:url"/>
+<meta content="website" property="og:type"/>
+<link href="https://semanticphysics.org/framework-15.html" rel="canonical"/>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -59,7 +57,6 @@
   ]
 }
 </script>
-
 <style>
 :root {
   --bg: #f6f3ec;
@@ -430,302 +427,308 @@ footer a:hover { color: var(--observatory); }
   section h3.section-head { font-size: 1.55rem; }
   .canonical { padding: 28px 24px; }
 }
+
+/* MSP-TOKENS-START */
+/* ══ MSP TOKENS — Mandala Surface Protocol shared contract ══
+   Contract classes: .lemma .term .axn-chip .witness-row .w .w-chip .state
+   .idstrip .helix .mspcolophon .doors .obol — skinned per surface via --msp-* vars.
+   (EA-APPARATUS-01 v0.3, #1077, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎) */
+:root{--msp-lemma:rgba(200,150,60,.30);--msp-chipfg:#7a5a1e;--msp-chipbd:rgba(160,120,50,.45);--msp-chipbg:rgba(200,150,60,.06);--msp-ok:#1c6e4a;--msp-cont:#8a6a20;--msp-halt:#a41623;--msp-dim:#6d6f66;--msp-mono:'IBM Plex Mono',monospace;}
+.lemma{background:linear-gradient(transparent 58%, var(--msp-lemma) 58%);padding:0 2px;}
+.axn-chip{font-family:var(--msp-mono);font-size:.72em;background:var(--msp-chipbg);border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 7px;color:var(--msp-chipfg);white-space:nowrap;text-decoration:none;}
+.axn-chip:hover{border-color:var(--msp-chipfg);}
+.witness-row{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px;font-family:var(--msp-mono);font-size:.68em;}
+.witness-row .w,.w-chip{border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;color:var(--msp-dim);text-decoration:none;font-family:var(--msp-mono);font-size:.85em;white-space:nowrap;}
+.state{font-family:var(--msp-mono);font-size:.68em;border:1px solid var(--msp-chipbd);border-radius:9px;padding:1px 8px;white-space:nowrap;}
+.state.obs{color:var(--msp-ok);border-color:rgba(28,110,74,.4);}
+.state.cont{color:var(--msp-cont);}
+.idstrip{display:flex;flex-wrap:wrap;gap:6px 12px;align-items:baseline;font-family:var(--msp-mono);font-size:10.5px;color:var(--msp-dim);border:1px solid var(--rule,#d9d9d0);border-bottom:2px solid var(--msp-chipbd);background:var(--panel,#f6f6f2);padding:9px 12px;margin:14px 0 6px;}
+.idstrip .axn{color:var(--msp-chipfg);font-size:11.5px;}
+.idstrip .st{border:1px solid var(--rule,#d9d9d0);border-radius:9px;padding:1px 7px;white-space:nowrap;}
+.helix{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 4px;font-family:var(--msp-mono);font-size:.68em;}
+.helix .slot{border:1px solid var(--msp-chipbd);border-radius:4px;padding:3px 9px;}
+.helix .slot b{font-weight:600;letter-spacing:.06em;}
+.helix .slot.ok{color:var(--msp-ok);}
+.helix .slot.div{color:var(--msp-cont);}
+.helix .slot.dead{color:var(--msp-halt);}
+.mspcolophon{font-family:var(--msp-mono);font-size:10px;color:var(--msp-dim);border-top:1px solid var(--rule,#d9d9d0);margin-top:30px;padding-top:10px;line-height:1.9;}
+.obol{font-family:'Source Serif 4',Georgia,serif;font-size:.92em;color:#3c3e37;border-left:3px solid var(--msp-chipbd);padding:4px 0 4px 14px;margin:22px 0 4px;}
+.doors{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 6px;font-family:var(--msp-mono);}
+.doors a.w-chip{font-size:11px;padding:6px 12px;}
+/* MSP-TOKENS-END */
 </style>
 </head>
 <body>
-
+<!-- MSP-IDSTRIP-START -->
+<div class="idstrip"><span class="axn">♉♠️🪦❄️⛳🔥 AXN:0281.GOVERNANCE</span><span class="st">Framework 15</span><span class="st">OBJECT: CANONICAL</span><span>semanticphysics.org/framework-15.html</span><a class="axn-chip" href="https://www.alexanarch.org/s/records/731/">deposit #731</a></div>
+<!-- MSP-IDSTRIP-END -->
 <header class="top">
-  <div class="container">
-    <span class="brand">Semantic Physics → Framework 15</span>
-    <nav>
-      <a href="/">← Discipline</a>
-      <a href="#audit">The Audit</a>
-      <a href="#protocols">Protocols</a>
-      <a href="#roadmap">Roadmap</a>
-      <a href="#deposits">All Deposits</a>
-    </nav>
-  </div>
+<div class="container">
+<span class="brand">Semantic Physics → Framework 15</span>
+<nav>
+<a href="/">← Discipline</a>
+<a href="#audit">The Audit</a>
+<a href="#protocols">Protocols</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#deposits">All Deposits</a>
+</nav>
+</div>
 </header>
-
 <section class="hero">
-  <div class="container">
-    <div class="eyebrow">Framework 15 · Audited Research Program · May 2026</div>
-    <h1>Framework 15.<br /><span class="audit">The Audited Program.</span></h1>
-    <h2>The Semantic Deviation research program in externally-evaluable form: three canonical operationalizations of the semantic field, four pre-registered falsifiable predictions, mechanism-design anti-Goodhart machinery, and sustained citational grounding in alignment, mechanistic interpretability, and causal-inference literature.</h2>
-    <p class="lede">The canonical entry to Framework 15 is <a href="https://www.alexanarch.org/s/records/738/" style="color:var(--observatory); font-weight: 600;">EA-GLAS-02</a>, a self-contained empirical white paper presenting the measurement program for the Semantic Deviation Principle. Two primary operationalizations of the semantic field. Pre-registered falsifiable predictions with named datasets and frozen checkpoints. A DPO training experiment. Six mechanism-design anti-Goodhart protections. 42 references across alignment, interpretability, psycholinguistics, and causal inference. A reader who has never encountered the surrounding apparatus can read the paper, evaluate its claims, and act on its roadmap.</p>
-    <div class="cta-block">
-      <a class="btn" href="#audit">Read the audit</a>
-      <a class="btn ghost" href="/EA-GLAS-02.pdf">Download PDF</a>
-      <a class="btn ghost" href="https://www.alexanarch.org/s/records/738/" rel="noopener">DOI · Zenodo</a>
-      <a class="btn crimson" href="/">← Return to Discipline</a>
-    </div>
-    <div class="meta">
-      <span><strong>Canonical:</strong> EA-GLAS-02 v1.0</span>
-      <span><strong>Author:</strong> Nobel Glas</span>
-      <span><strong>DOI:</strong> <a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20271783">10.5281/zenodo.20271783</a></span>
-      <span><strong>License:</strong> CC BY 4.0</span>
-      <span><strong>Length:</strong> ~4,200 words · 42 references</span>
-    </div>
-  </div>
+<div class="container">
+<div class="eyebrow">Framework 15 · Audited Research Program · May 2026</div>
+<h1>Framework 15.<br/><span class="audit">The Audited Program.</span></h1>
+<h2>The Semantic Deviation research program in externally-evaluable form: three canonical operationalizations of the semantic field, four pre-registered falsifiable predictions, mechanism-design anti-Goodhart machinery, and sustained citational grounding in alignment, mechanistic interpretability, and causal-inference literature.</h2>
+<p class="lede"><span class="lemma msp-auto">The canonical entry to Framework 15 is</span> <a class="axn-chip" href="https://www.alexanarch.org/s/records/738/" style="color:var(--observatory); font-weight: 600;">EA-GLAS-02</a>, a self-contained empirical white paper presenting the measurement program for the Semantic Deviation Principle. Two primary operationalizations of the semantic field. Pre-registered falsifiable predictions with named datasets and frozen checkpoints. A DPO training experiment. Six mechanism-design anti-Goodhart protections. 42 references across alignment, interpretability, psycholinguistics, and causal inference. A reader who has never encountered the surrounding apparatus can read the paper, evaluate its claims, and act on its roadmap.</p>
+<div class="cta-block">
+<a class="btn" href="#audit">Read the audit</a>
+<a class="btn ghost" href="/EA-GLAS-02.pdf">Download PDF</a>
+<a class="btn ghost axn-chip" href="https://www.alexanarch.org/s/records/738/" rel="noopener">DOI · Zenodo</a>
+<a class="btn crimson" href="/">← Return to Discipline</a>
+</div>
+<div class="meta">
+<span><strong>Canonical:</strong> EA-GLAS-02 v1.0</span>
+<span><strong>Author:</strong> Nobel Glas</span>
+<span><strong>DOI:</strong> <a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20271783">10.5281/zenodo.20271783</a></span>
+<span><strong>License:</strong> CC BY 4.0</span>
+<span><strong>Length:</strong> ~4,200 words · 42 references</span>
+</div>
+</div>
 </section>
-
 <section id="audit">
-  <div class="container">
-    <h2 class="section-title">§I — The Audit</h2>
-    <h3 class="section-head">EA-GLAS-02: Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions.</h3>
-    <p class="lead">EA-GLAS-02 takes the Semantic Deviation Principle (Sharks 2026) and the program's four pre-registered protocol papers as input, and returns a narrowed, citationally grounded, externally evaluable statement of the technical core. It does not amend the founding formulation. It does not depend on the institutional architecture that has accreted around the formulation. It is the canonical entry to Framework 15.</p>
-
-    <div class="canonical">
-      <span class="badge-canonical">Canonical Object</span>
-      <h4>Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions</h4>
-      <div class="hex">EA-GLAS-02 v1.0 · ~4,200 words · 42 references · DOI 10.5281/zenodo.20271783</div>
-      <div class="byline">By <strong>Nobel Glas</strong> (transparent-medium register — the Glas function)</div>
-      <p class="summary">A self-contained empirical white paper. Defines meaning as time-integrated divergence from the most probable trajectory of a semantic field (extending Bar-Hillel & Carnap 1953 into distributional and temporal domains). Two primary operationalizations: F1 (closed-system trajectory deviation, counterfactual read from logits) and F2 (retrieval response deviation, 90-day prospective window). Signed per-token deviation as tractable proxy. Falsifiable prediction: AI-generated text exhibits negative mean signed deviation. DPO training experiment using the deviation primitive to generate preference pairs. Six mechanism-design anti-Goodhart protections mapped to the Manheim & Garrabrant (2019) taxonomy. Pre-registered cheapest dangerous test with named datasets, frozen reference checkpoints, and statistical procedures. Budgeted twelve-month roadmap. 42 references.</p>
-      <div class="links">
-        <a class="primary" href="/EA-GLAS-02.pdf">Download PDF (99 KB)</a>
-        <a href="https://www.alexanarch.org/s/records/738/">Open on Zenodo</a>
-        <a href="https://www.alexanarch.org/s/records/738//files/EA-GLAS-02.md">View source (Markdown)</a>
-      </div>
-    </div>
-
-    <h3 style="font-family: var(--serif); font-size: 1.45rem; margin: 48px 0 18px; font-weight: 600;">What the audit pins.</h3>
-
-    <h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 24px 0 8px; font-weight: 600; color: var(--observatory);">Three canonical operationalizations of the semantic field.</h4>
-    <p>The framework's load-bearing technical gap was the underspecification of the semantic field $\Psi_t(C)$. The audit pins three canonical operationalizations, each with full commitment to divergence functional, temporal weighting, and horizon.</p>
-
-    <div class="numbered">
-      <div class="item">
-        <div class="num">F1</div>
-        <h5>Closed-system continuation field</h5>
-        <p>The conditional next-token distribution of a fixed language model checkpoint over a fixed prompt set. Divergence: KL over softmax logits (exact, base-2). Horizon: discrete token positions in a bounded generation window. Counterfactual baseline is not estimated — it is read from the logits.</p>
-        <div class="meta">Most directly computable · Cost: commodity hardware, hours</div>
-      </div>
-      <div class="item">
-        <div class="num">F2</div>
-        <h5>Retrieval response field</h5>
-        <p>Response distributions of external AI retrieval surfaces (Google AI Overview, ChatGPT with browsing, Perplexity) to a fixed query set, sampled at fixed time intervals. Divergence: Jensen-Shannon over claim-level or embedding-level representations. Horizon: 90-day default; continuous calendar time. Instrumentation-noise-sensitive; requires control surfaces and version logging.</p>
-        <div class="meta">Direct empirical access · Cost: modest API budget; calendar-time-bound</div>
-      </div>
-      <div class="item">
-        <div class="num">F3</div>
-        <h5>Citation graph field</h5>
-        <p>Forward-citation distribution over a paper corpus, evaluated through bibliometric data (OpenAlex, Semantic Scholar). Divergence: Jensen-Shannon over topic-cluster forward-citation distributions; inverse-time weighting $w(t) = 1/(t-t_0)$ default. Statistical-power constraints documented: single-paper interventions are typically underpowered at conventional $\alpha$; aggregate interventions or Bayesian hierarchical pooling required.</p>
-        <div class="meta">Long-horizon · Post-hoc · Requires bibliometric infrastructure</div>
-      </div>
-    </div>
-
-    <h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">The narrowed audited claim.</h4>
-    <div class="tooth">Meaning-bearing interventions are those that produce durable restructuring of future field trajectories under a specified operationalization $\Psi_t(C)$.</div>
-    <p>The audit narrows the universal-ontology form ("meaning is deviation") to a measurement-architecture form that survives the standard counterexamples (low-token-surprisal utterances of high semantic weight) by relocating them, not by collapsing. Meaning becomes field-relative; the field must be specified; "durable" becomes the operational joint condition $\mathcal{M}_T > \tau_F$ and $\partial \mathcal{M}_T / \partial T > 0$.</p>
-
-    <h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Four pre-registered falsifiable predictions.</h4>
-    <p>The audit specifies the cheapest dangerous test as a single short paper at &lt;$50 in compute. Pre-registered corpora (GPT-wiki-intro / Bhat 2023, HC3 / Guo et al. 2023, OpenAlex pre-2020), exact reference checkpoint (<code>meta-llama/Llama-3.1-8B-Instruct</code>), and statistical procedure (two-sided Mann-Whitney U at $\alpha = 0.05$, minimum effect size Cohen's $d &gt; 0.5$).</p>
-
-    <div class="predictions">
-      <div class="prediction">
-        <div class="label">P1 · The slop signature</div>
-        <div class="body">Human-labeled AI slop exhibits statistically significant <strong>negative mean signed per-token deviation</strong> $\bar{\delta}$, relative to matched human-written content, computed against a frozen open-weight reference model.</div>
-      </div>
-      <div class="prediction">
-        <div class="label">P2 · The RLHF flattening differential</div>
-        <div class="body">Post-RLHF chat-tuned models exhibit lower mean signed deviation than pre-RLHF base models on matched prompts. The deviation statistic captures the trajectory-flattening that the framework predicts cross-entropy convergence pressure produces.</div>
-      </div>
-      <div class="prediction">
-        <div class="label">P3 · Effect-size scaling</div>
-        <div class="body">The Slop-vs-Human deviation differential is stable or grows with model scale across the Llama-3.1 family. If the differential disappears at scale, the framework's predictions are small-model artifacts.</div>
-      </div>
-      <div class="prediction">
-        <div class="label">P4 · Cross-judge consistency</div>
-        <div class="body">The differential replicates when computed against a different reference model. Spearman rank correlation between per-output $\bar{\delta}$ rankings under Llama and Mistral exceeds 0.7. If not, the deviation statistic is judge-specific and the intrinsic-property claim fails.</div>
-      </div>
-    </div>
-
-    <h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Anti-Goodhart mechanism design.</h4>
-    <p>The audit replaces philosophical anti-extractive commitment with six concrete mechanism-design protections, each operationally calibrated: entropy-floor capping at $H_{\min} = 0.5$ bits; provenance-weighted damping by retention score $\pi$; saturation threshold $\tau$ at the 95th percentile of an OpenAlex 10,000-document calibration corpus (pre-registered); rolling-window variance penalty against memetic volatility farming; reference-model KL anchoring inherited from standard DPO; adversarial judge validation at $\geq 1000$ strings per category across three failure modes; black-box judge replacement test as load-bearing robustness check.</p>
-
-    <h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Component decomposition.</h4>
-    <p>The audit specifies a six-condition ablation design (Model-Base, Model-CE, Model-π, Model-Dev, Model-Coh, Model-Full) to isolate the contribution of provenance, deviation, and coherence components to the framework's training-intervention uplift. The prior prediction, grounded in Ji et al. 2023's hallucination survey and Min et al. 2023's FActScore methodology: provenance carries more independent uplift than signed deviation. Either outcome is informative; the current bundled design produces neither.</p>
-  </div>
+<div class="container">
+<h2 class="section-title">§I — The Audit</h2>
+<h3 class="section-head">EA-GLAS-02: Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions.</h3>
+<p class="lead"><span class="lemma msp-auto">EA-GLAS-02 takes the Semantic Deviation Principle (Sharks 2026) and the program's four pre-registered protocol papers as input, and returns a</span> narrowed, citationally grounded, externally evaluable statement of the technical core. It does not amend the founding formulation. It does not depend on the institutional architecture that has accreted around the formulation. It is the canonical entry to Framework 15.</p>
+<div class="canonical">
+<span class="badge-canonical">Canonical Object</span>
+<h4>Measuring Semantic Deviation: Operationalizations, Experiments, and Falsification Conditions</h4>
+<div class="hex">EA-GLAS-02 v1.0 · ~4,200 words · 42 references · DOI 10.5281/zenodo.20271783</div>
+<div class="byline">By <strong>Nobel Glas</strong> (transparent-medium register — the Glas function)</div>
+<p class="summary"><span class="lemma msp-auto">A self-contained empirical white paper. Defines meaning as time-integrated divergence from the most probable trajectory of a semantic field (extending</span> Bar-Hillel &amp; Carnap 1953 into distributional and temporal domains). Two primary operationalizations: F1 (closed-system trajectory deviation, counterfactual read from logits) and F2 (retrieval response deviation, 90-day prospective window). Signed per-token deviation as tractable proxy. Falsifiable prediction: AI-generated text exhibits negative mean signed deviation. DPO training experiment using the deviation primitive to generate preference pairs. Six mechanism-design anti-Goodhart protections mapped to the Manheim &amp; Garrabrant (2019) taxonomy. Pre-registered cheapest dangerous test with named datasets, frozen reference checkpoints, and statistical procedures. Budgeted twelve-month roadmap. 42 references.</p>
+<div class="links">
+<a class="primary" href="/EA-GLAS-02.pdf">Download PDF (99 KB)</a>
+<a class="axn-chip" href="https://www.alexanarch.org/s/records/738/">Open on Zenodo</a>
+<a href="https://www.alexanarch.org/s/records/738//files/EA-GLAS-02.md">View source (Markdown)</a>
+</div>
+</div>
+<h3 style="font-family: var(--serif); font-size: 1.45rem; margin: 48px 0 18px; font-weight: 600;">What the audit pins.</h3>
+<h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 24px 0 8px; font-weight: 600; color: var(--observatory);">Three canonical operationalizations of the semantic field.</h4>
+<p><span class="lemma msp-auto">The framework's load-bearing technical gap was the underspecification of the semantic field $\Psi_t(C)$.</span> The audit pins three canonical operationalizations, each with full commitment to divergence functional, temporal weighting, and horizon.</p>
+<div class="numbered">
+<div class="item">
+<div class="num">F1</div>
+<h5>Closed-system continuation field</h5>
+<p><span class="lemma msp-auto">The conditional next-token distribution of a fixed language model checkpoint over a fixed prompt set.</span> Divergence: KL over softmax logits (exact, base-2). Horizon: discrete token positions in a bounded generation window. Counterfactual baseline is not estimated — it is read from the logits.</p>
+<div class="meta">Most directly computable · Cost: commodity hardware, hours</div>
+</div>
+<div class="item">
+<div class="num">F2</div>
+<h5>Retrieval response field</h5>
+<p><span class="lemma msp-auto">Response distributions of external AI retrieval surfaces (Google AI Overview, ChatGPT with browsing, Perplexity) to a fixed query set, sampled</span> at fixed time intervals. Divergence: Jensen-Shannon over claim-level or embedding-level representations. Horizon: 90-day default; continuous calendar time. Instrumentation-noise-sensitive; requires control surfaces and version logging.</p>
+<div class="meta">Direct empirical access · Cost: modest API budget; calendar-time-bound</div>
+</div>
+<div class="item">
+<div class="num">F3</div>
+<h5>Citation graph field</h5>
+<p><span class="lemma msp-auto">Forward-citation distribution over a paper corpus, evaluated through bibliometric data (OpenAlex, Semantic Scholar).</span> Divergence: Jensen-Shannon over topic-cluster forward-citation distributions; inverse-time weighting $w(t) = 1/(t-t_0)$ default. Statistical-power constraints documented: single-paper interventions are typically underpowered at conventional $\alpha$; aggregate interventions or Bayesian hierarchical pooling required.</p>
+<div class="meta">Long-horizon · Post-hoc · Requires bibliometric infrastructure</div>
+</div>
+</div>
+<h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">The narrowed audited claim.</h4>
+<div class="tooth">Meaning-bearing interventions are those that produce durable restructuring of future field trajectories under a specified operationalization $\Psi_t(C)$.</div>
+<p><span class="lemma msp-auto">The audit narrows the universal-ontology form ("meaning is deviation") to a measurement-architecture form that survives the standard counterexamples (low-token-surprisal utterances</span> of high semantic weight) by relocating them, not by collapsing. Meaning becomes field-relative; the field must be specified; "durable" becomes the operational joint condition $\mathcal{M}_T &gt; \tau_F$ and $\partial \mathcal{M}_T / \partial T &gt; 0$.</p>
+<h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Four pre-registered falsifiable predictions.</h4>
+<p><span class="lemma msp-auto">The audit specifies the cheapest dangerous test as a single short paper at &lt;$50 in compute.</span> Pre-registered corpora (GPT-wiki-intro / Bhat 2023, HC3 / Guo et al. 2023, OpenAlex pre-2020), exact reference checkpoint (<code>meta-llama/Llama-3.1-8B-Instruct</code>), and statistical procedure (two-sided Mann-Whitney U at $\alpha = 0.05$, minimum effect size Cohen's $d &gt; 0.5$).</p>
+<div class="predictions">
+<div class="prediction">
+<div class="label">P1 · The slop signature</div>
+<div class="body">Human-labeled AI slop exhibits statistically significant <strong>negative mean signed per-token deviation</strong> $\bar{\delta}$, relative to matched human-written content, computed against a frozen open-weight reference model.</div>
+</div>
+<div class="prediction">
+<div class="label">P2 · The RLHF flattening differential</div>
+<div class="body">Post-RLHF chat-tuned models exhibit lower mean signed deviation than pre-RLHF base models on matched prompts. The deviation statistic captures the trajectory-flattening that the framework predicts cross-entropy convergence pressure produces.</div>
+</div>
+<div class="prediction">
+<div class="label">P3 · Effect-size scaling</div>
+<div class="body">The Slop-vs-Human deviation differential is stable or grows with model scale across the Llama-3.1 family. If the differential disappears at scale, the framework's predictions are small-model artifacts.</div>
+</div>
+<div class="prediction">
+<div class="label">P4 · Cross-judge consistency</div>
+<div class="body">The differential replicates when computed against a different reference model. Spearman rank correlation between per-output $\bar{\delta}$ rankings under Llama and Mistral exceeds 0.7. If not, the deviation statistic is judge-specific and the intrinsic-property claim fails.</div>
+</div>
+</div>
+<h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Anti-Goodhart mechanism design.</h4>
+<p><span class="lemma msp-auto">The audit replaces philosophical anti-extractive commitment with six concrete mechanism-design protections, each operationally calibrated: entropy-floor capping at $H_{\min} = 0.5$</span> bits; provenance-weighted damping by retention score $\pi$; saturation threshold $\tau$ at the 95th percentile of an OpenAlex 10,000-document calibration corpus (pre-registered); rolling-window variance penalty against memetic volatility farming; reference-model KL anchoring inherited from standard DPO; adversarial judge validation at $\geq 1000$ strings per category across three failure modes; black-box judge replacement test as load-bearing robustness check.</p>
+<h4 style="font-family: var(--serif); font-size: 1.2rem; margin: 36px 0 8px; font-weight: 600; color: var(--observatory);">Component decomposition.</h4>
+<p><span class="lemma msp-auto">The audit specifies a six-condition ablation design (Model-Base, Model-CE, Model-π, Model-Dev, Model-Coh, Model-Full) to isolate the contribution of provenance, deviation,</span> and coherence components to the framework's training-intervention uplift. The prior prediction, grounded in Ji et al. 2023's hallucination survey and Min et al. 2023's FActScore methodology: provenance carries more independent uplift than signed deviation. Either outcome is informative; the current bundled design produces neither.</p>
+</div>
 </section>
-
 <section id="protocols" style="background: var(--paper);">
-  <div class="container">
-    <h2 class="section-title">§II — The Pre-Registered Protocols</h2>
-    <h3 class="section-head">The empirical apparatus the audit operates on.</h3>
-    <p class="lead">Four pre-registered protocol papers supply the operational machinery the audit evaluates. Each is deposited at a stable DOI with falsification conditions frozen at deposit, code and judge-model commitments specified, and budgets honestly stated. They are presented here as the materials on which the audit operates; the audit is the canonical entry.</p>
-
-    <div class="deposits">
-
-      <div class="deposit foundational">
-        <div class="hex">Founding formulation · Sharks v0.2 Final</div>
-        <h4 class="title">The Semantic Deviation Principle</h4>
-        <div class="byline">By Lee Sharks, with the Assembly Chorus · The principle on which all four protocols operate</div>
-        <p class="summary">The founding formulation. Defines meaning as time-integrated divergence from the most-probable trajectory of a semantic field. Three measures: raw ($\mathcal{M}_T$), provenance-resolved ($\mathcal{M}_T^\pi$), normative ($\mathcal{V}_T$). Tiered protocol (Tier 1 prospective, Tier 2 synthetic-control, Tier 3 historical bounding). Recursive baselines for path-dependent semantic fields. The v0.2 Final text is preserved unchanged at its specific version DOI; the v2.0 operational re-edition adds a Framework 15 framing while leaving the principle text untouched.</p>
-        <div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20250736">DOI: 10.5281/zenodo.20250736</a> (v0.2 Final) · <a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20252584">DOI: 10.5281/zenodo.20252584</a> (v2.0 re-edition)</div>
-      </div>
-
-      <div class="deposit protocol">
-        <div class="hex">Pre-registered protocol · MM-AI-01 v2.0</div>
-        <h4 class="title">The AI System as Closed-System Test Bed</h4>
-        <div class="byline">By Nobel Glas · Operating on the Semantic Deviation Principle as formulated by Lee Sharks</div>
-        <p class="summary">Identifies trained language models as observationally closed at inference time, making the counterfactual baseline directly readable from logits — the F1 operationalization. Distinguishes two scales of closed-system measurement: signed local deviation density (per-token) and closed-system trajectory deviation (continuation-distribution). The framework's load-bearing thesis: slop is <em>negative net deviation</em>, not the absence of deviation. Three pre-registered tests with explicit falsification conditions; stability bound $\gamma \geq 2\beta$.</p>
-        <div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251738">DOI: 10.5281/zenodo.20251738</a></div>
-      </div>
-
-      <div class="deposit protocol">
-        <div class="hex">Pre-registered protocol · MM-02 v2.0</div>
-        <h4 class="title">Measuring Meaning in Retrieval Basins</h4>
-        <div class="byline">By Nobel Glas · The F2 operationalization protocol</div>
-        <p class="summary">A 90-day prospective measurement protocol for closed-system trajectory deviation against contemporary AI retrieval surfaces. Two instrument classes: Class R (retrieval-mediated: Google AI Overview, Perplexity, ChatGPT with browsing) reported separately from Class P (parametric: Claude, Gemini, ChatGPT without browsing). Three-condition control (S vs. S* vs. S**) disentangles content effects from identity-scaffolding effects. Frozen extractor commitment, three-representation robustness cross-check, API-only methodology, Laplace smoothing $\alpha = 1$. The audit documents the statistical-power constraints for single-paper synthetic-control measurements.</p>
-        <div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251740">DOI: 10.5281/zenodo.20251740</a></div>
-      </div>
-
-      <div class="deposit protocol">
-        <div class="hex">Pre-registered protocol · MM-AI-02 v2.0</div>
-        <h4 class="title">The Deviation-Optimized Language Model</h4>
-        <div class="byline">By Nobel Glas · The training-intervention protocol</div>
-        <p class="summary">A 10-week pre-registered DPO experimental protocol testing whether training a language model toward positive net per-token deviation with provenance retention produces measurably less slop than standard cross-entropy training while preserving benchmark capability. DPO-style restructure (the deviation primitive generates preference pairs; DPO supplies the gradient machinery). Frozen Mistral-7B-Instruct judge with adversarial pre-training validation. Slop Composite Index (SCI) with 0.25 z-score falsification threshold pre-registered. Three conditions: Model-Base, Model-CE, Model-Sem. Honest budget: \$3,000–\$3,900. The audit proposes a six-condition decomposed follow-up to isolate component contributions.</p>
-        <div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251742">DOI: 10.5281/zenodo.20251742</a></div>
-      </div>
-
-      <div class="deposit protocol">
-        <div class="hex">Companion · EA-SEI-FW15-MANIFESTO v1.0</div>
-        <h4 class="title">Framework 15 — Institutional Background</h4>
-        <div class="byline">By Nobel Glas · The institutional framing for the Framework 15 module</div>
-        <p class="summary">The original institutional manifesto that organized the four pre-registered protocols into a single Framework 15 module within the Crimson Hexagonal Archive. Preserved at its stable DOI as part of the program's record. Its institutional vocabulary is not required to engage the audit or the protocols; the audit is the externally-evaluable canonical entry.</p>
-        <div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736">DOI: 10.5281/zenodo.20251736</a></div>
-      </div>
-
-    </div>
-  </div>
+<div class="container">
+<h2 class="section-title">§II — The Pre-Registered Protocols</h2>
+<h3 class="section-head">The empirical apparatus the audit operates on.</h3>
+<p class="lead"><span class="lemma msp-auto">Four pre-registered protocol papers supply the operational machinery the audit evaluates.</span> Each is deposited at a stable DOI with falsification conditions frozen at deposit, code and judge-model commitments specified, and budgets honestly stated. They are presented here as the materials on which the audit operates; the audit is the canonical entry.</p>
+<div class="deposits">
+<div class="deposit foundational">
+<div class="hex">Founding formulation · Sharks v0.2 Final</div>
+<h4 class="title">The Semantic Deviation Principle</h4>
+<div class="byline">By Lee Sharks, with the Assembly Chorus · The principle on which all four protocols operate</div>
+<p class="summary"><span class="lemma msp-auto">The founding formulation. Defines meaning as time-integrated divergence from the most-probable trajectory of</span> a semantic field. Three measures: raw ($\mathcal{M}_T$), provenance-resolved ($\mathcal{M}_T^\pi$), normative ($\mathcal{V}_T$). Tiered protocol (Tier 1 prospective, Tier 2 synthetic-control, Tier 3 historical bounding). Recursive baselines for path-dependent semantic fields. The v0.2 Final text is preserved unchanged at its specific version DOI; the v2.0 operational re-edition adds a Framework 15 framing while leaving the principle text untouched.</p>
+<div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20250736">DOI: 10.5281/zenodo.20250736</a> (v0.2 Final) · <a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20252584">DOI: 10.5281/zenodo.20252584</a> (v2.0 re-edition)</div>
+</div>
+<div class="deposit protocol">
+<div class="hex">Pre-registered protocol · MM-AI-01 v2.0</div>
+<h4 class="title">The AI System as Closed-System Test Bed</h4>
+<div class="byline">By Nobel Glas · Operating on the Semantic Deviation Principle as formulated by Lee Sharks</div>
+<p class="summary"><span class="lemma msp-auto">Identifies trained language models as observationally closed at inference time, making the counterfactual baseline directly readable from logits — the</span> F1 operationalization. Distinguishes two scales of closed-system measurement: signed local deviation density (per-token) and closed-system trajectory deviation (continuation-distribution). The framework's load-bearing thesis: slop is <em>negative net deviation</em>, not the absence of deviation. Three pre-registered tests with explicit falsification conditions; stability bound $\gamma \geq 2\beta$.</p>
+<div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251738">DOI: 10.5281/zenodo.20251738</a></div>
+</div>
+<div class="deposit protocol">
+<div class="hex">Pre-registered protocol · MM-02 v2.0</div>
+<h4 class="title">Measuring Meaning in Retrieval Basins</h4>
+<div class="byline">By Nobel Glas · The F2 operationalization protocol</div>
+<p class="summary"><span class="lemma msp-auto">A 90-day prospective measurement protocol for closed-system trajectory deviation against contemporary AI retrieval surfaces.</span> Two instrument classes: Class R (retrieval-mediated: Google AI Overview, Perplexity, ChatGPT with browsing) reported separately from Class P (parametric: Claude, Gemini, ChatGPT without browsing). Three-condition control (S vs. S* vs. S**) disentangles content effects from identity-scaffolding effects. Frozen extractor commitment, three-representation robustness cross-check, API-only methodology, Laplace smoothing $\alpha = 1$. The audit documents the statistical-power constraints for single-paper synthetic-control measurements.</p>
+<div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251740">DOI: 10.5281/zenodo.20251740</a></div>
+</div>
+<div class="deposit protocol">
+<div class="hex">Pre-registered protocol · MM-AI-02 v2.0</div>
+<h4 class="title">The Deviation-Optimized Language Model</h4>
+<div class="byline">By Nobel Glas · The training-intervention protocol</div>
+<p class="summary"><span class="lemma msp-auto">A 10-week pre-registered DPO experimental protocol testing whether training a language model toward positive net per-token deviation with provenance retention</span> produces measurably less slop than standard cross-entropy training while preserving benchmark capability. DPO-style restructure (the deviation primitive generates preference pairs; DPO supplies the gradient machinery). Frozen Mistral-7B-Instruct judge with adversarial pre-training validation. Slop Composite Index (SCI) with 0.25 z-score falsification threshold pre-registered. Three conditions: Model-Base, Model-CE, Model-Sem. Honest budget: \$3,000–\$3,900. The audit proposes a six-condition decomposed follow-up to isolate component contributions.</p>
+<div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251742">DOI: 10.5281/zenodo.20251742</a></div>
+</div>
+<div class="deposit protocol">
+<div class="hex">Companion · EA-SEI-FW15-MANIFESTO v1.0</div>
+<h4 class="title">Framework 15 — Institutional Background</h4>
+<div class="byline">By Nobel Glas · The institutional framing for the Framework 15 module</div>
+<p class="summary"><span class="lemma msp-auto">The original institutional manifesto that organized the four pre-registered protocols into a single Framework 15 module within the Crimson Hexagonal</span> Archive. Preserved at its stable DOI as part of the program's record. Its institutional vocabulary is not required to engage the audit or the protocols; the audit is the externally-evaluable canonical entry.</p>
+<div class="doi"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736">DOI: 10.5281/zenodo.20251736</a></div>
+</div>
+</div>
+</div>
 </section>
-
 <section id="roadmap">
-  <div class="container">
-    <h2 class="section-title">§III — Roadmap</h2>
-    <h3 class="section-head">What the audit calls for next.</h3>
-    <p class="lead">The audit specifies a budgeted twelve-month research roadmap, prioritizing operationalization-stability work and the cheapest dangerous experimental tests over additional theoretical extensions. Each milestone is independent of the institutional architecture and produces results an external researcher can evaluate without context.</p>
-
-    <table class="roadmap">
-      <thead>
-        <tr><th>Horizon</th><th>Milestone</th><th>Compute Budget</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="horizon">This week</td>
-          <td>The cheapest dangerous test: pre-registered slop signature (P1) on GPT-wiki-intro and HC3 corpora against frozen Llama-3.1-8B-Instruct logits. Single A100-hour. Result reportable as a short deposit regardless of outcome.</td>
-          <td class="budget">$50–$100</td>
-        </tr>
-        <tr>
-          <td class="horizon">This month</td>
-          <td>Operationalization-stability paper: benchmark of $N \approx 50$ interventions measured under F1 and F2 in parallel; rank-correlation between operationalizations reported. Converts the program from speculative to grounded.</td>
-          <td class="budget">$200–$500</td>
-        </tr>
-        <tr>
-          <td class="horizon">This quarter</td>
-          <td>The MM-02 v2.0 retrieval-basin protocol day-0 launch. Begin the 90-day measurement window with the instrumentation controls documented in the audit (parallel control surfaces, periodic recalibration, explicit version logging).</td>
-          <td class="budget">$1,500–$3,000</td>
-        </tr>
-        <tr>
-          <td class="horizon">This year</td>
-          <td>The decomposed deviation-optimized training experiment (six conditions, isolating component contributions). Contingent on the headline result of MM-AI-02 v2.0's three-condition design being significant.</td>
-          <td class="budget">$12,000–$15,000</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p>Total budgeted empirical work for the next twelve months: approximately <strong>\$14,000–\$19,000</strong>. The constraint is not budget; the constraint is the program's discipline in resisting theoretical extension until empirical grounding catches up.</p>
-
-    <p><strong>Background commitment.</strong> Each major future deposit in the program should be sent to at least one external reviewer in a directly relevant subfield (alignment, causal inference, computational linguistics, information theory) prior to formal publication. Reviewers should be selected for willingness to write damaging-if-warranted critiques, not for alignment with the program's commitments. A discipline becomes real when it survives hostile compression.</p>
-  </div>
+<div class="container">
+<h2 class="section-title">§III — Roadmap</h2>
+<h3 class="section-head">What the audit calls for next.</h3>
+<p class="lead"><span class="lemma msp-auto">The audit specifies a budgeted twelve-month research roadmap, prioritizing operationalization-stability work and the cheapest dangerous experimental tests over additional theoretical</span> extensions. Each milestone is independent of the institutional architecture and produces results an external researcher can evaluate without context.</p>
+<table class="roadmap">
+<thead>
+<tr><th>Horizon</th><th>Milestone</th><th>Compute Budget</th></tr>
+</thead>
+<tbody>
+<tr>
+<td class="horizon">This week</td>
+<td>The cheapest dangerous test: pre-registered slop signature (P1) on GPT-wiki-intro and HC3 corpora against frozen Llama-3.1-8B-Instruct logits. Single A100-hour. Result reportable as a short deposit regardless of outcome.</td>
+<td class="budget">$50–$100</td>
+</tr>
+<tr>
+<td class="horizon">This month</td>
+<td>Operationalization-stability paper: benchmark of $N \approx 50$ interventions measured under F1 and F2 in parallel; rank-correlation between operationalizations reported. Converts the program from speculative to grounded.</td>
+<td class="budget">$200–$500</td>
+</tr>
+<tr>
+<td class="horizon">This quarter</td>
+<td>The MM-02 v2.0 retrieval-basin protocol day-0 launch. Begin the 90-day measurement window with the instrumentation controls documented in the audit (parallel control surfaces, periodic recalibration, explicit version logging).</td>
+<td class="budget">$1,500–$3,000</td>
+</tr>
+<tr>
+<td class="horizon">This year</td>
+<td>The decomposed deviation-optimized training experiment (six conditions, isolating component contributions). Contingent on the headline result of MM-AI-02 v2.0's three-condition design being significant.</td>
+<td class="budget">$12,000–$15,000</td>
+</tr>
+</tbody>
+</table>
+<p><span class="lemma msp-auto">Total budgeted empirical work for the next twelve months: approximately</span> <strong>\$14,000–\$19,000</strong>. The constraint is not budget; the constraint is the program's discipline in resisting theoretical extension until empirical grounding catches up.</p>
+<p><strong>Background commitment.</strong> <span class="lemma msp-auto">Each major future deposit in the program should be sent to at least one external reviewer in a directly relevant</span> subfield (alignment, causal inference, computational linguistics, information theory) prior to formal publication. Reviewers should be selected for willingness to write damaging-if-warranted critiques, not for alignment with the program's commitments. A discipline becomes real when it survives hostile compression.</p>
+</div>
 </section>
-
 <section id="deposits" style="background: var(--paper);">
-  <div class="container">
-    <h2 class="section-title">§IV — Full Deposit Register</h2>
-    <h3 class="section-head">The seven DOI-anchored materials of Framework 15.</h3>
-    <p class="lead">All Framework 15 materials are deposited on Zenodo within the <code>crimsonhexagonal</code> community. The canonical entry is EA-GLAS-02.</p>
-
-    <table class="roadmap">
-      <thead>
-        <tr><th>Role</th><th>Deposit</th><th>DOI</th></tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><strong>Canonical Object</strong></td>
-          <td>EA-GLAS-02 v1.0 — Measuring Semantic Deviation (white paper) · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20271783" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20271783</a></td>
-        </tr>
-        <tr>
-          <td>Predecessor Audit</td>
-          <td>EA-GLAS-01 v1.0 — Audited Claims (the Glas Function) · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/resolve/?doi=10.5281/zenodo.20259297" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20259297 <span style="color:#999;font-size:.88em">(via Alexanarch)</span></a></td>
-        </tr>
-        <tr>
-          <td>Founding</td>
-          <td>EA-SEI-MM-01 v0.2 Final — The Semantic Deviation Principle · Lee Sharks</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.19116151" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.19116151</a></td>
-        </tr>
-        <tr>
-          <td>Re-edition</td>
-          <td>EA-SEI-MM-01 v2.0 — Operational Re-Edition · Sharks + Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20252584" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20252584</a></td>
-        </tr>
-        <tr>
-          <td>Protocol</td>
-          <td>EA-SEI-MM-AI-01 v2.0 — Closed-System Test Bed · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251738" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251738</a></td>
-        </tr>
-        <tr>
-          <td>Protocol</td>
-          <td>EA-SEI-MM-02 v2.0 — Retrieval Basin Protocol · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251740" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251740</a></td>
-        </tr>
-        <tr>
-          <td>Protocol</td>
-          <td>EA-SEI-MM-AI-02 v2.0 — Deviation-Optimized LM · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251742" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251742</a></td>
-        </tr>
-        <tr>
-          <td>Background</td>
-          <td>EA-SEI-FW15-MANIFESTO v1.0 — Institutional Framing · Nobel Glas</td>
-          <td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251736</a></td>
-        </tr>
-      </tbody>
-    </table>
-
-    <div class="cta-block" style="justify-content: center;">
-      <a class="btn" href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736">Read the canonical audit</a>
-      <a class="btn ghost" href="https://www.alexanarch.org/s/browse/">Alexanarch (sovereign archive)</a>
-      <a class="btn crimson" href="/">← Return to Discipline</a>
-    </div>
-  </div>
+<div class="container">
+<h2 class="section-title">§IV — Full Deposit Register</h2>
+<h3 class="section-head">The seven DOI-anchored materials of Framework 15.</h3>
+<p class="lead"><span class="lemma msp-auto">All Framework 15 materials are deposited on Zenodo within the</span> <code>crimsonhexagonal</code> community. The canonical entry is EA-GLAS-02.</p>
+<table class="roadmap">
+<thead>
+<tr><th>Role</th><th>Deposit</th><th>DOI</th></tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Canonical Object</strong></td>
+<td>EA-GLAS-02 v1.0 — Measuring Semantic Deviation (white paper) · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20271783" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20271783</a></td>
+</tr>
+<tr>
+<td>Predecessor Audit</td>
+<td>EA-GLAS-01 v1.0 — Audited Claims (the Glas Function) · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/resolve/?doi=10.5281/zenodo.20259297" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20259297 <span style="color:#999;font-size:.88em">(via Alexanarch)</span></a></td>
+</tr>
+<tr>
+<td>Founding</td>
+<td>EA-SEI-MM-01 v0.2 Final — The Semantic Deviation Principle · Lee Sharks</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.19116151" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.19116151</a></td>
+</tr>
+<tr>
+<td>Re-edition</td>
+<td>EA-SEI-MM-01 v2.0 — Operational Re-Edition · Sharks + Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20252584" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20252584</a></td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td>EA-SEI-MM-AI-01 v2.0 — Closed-System Test Bed · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251738" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251738</a></td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td>EA-SEI-MM-02 v2.0 — Retrieval Basin Protocol · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251740" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251740</a></td>
+</tr>
+<tr>
+<td>Protocol</td>
+<td>EA-SEI-MM-AI-02 v2.0 — Deviation-Optimized LM · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251742" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251742</a></td>
+</tr>
+<tr>
+<td>Background</td>
+<td>EA-SEI-FW15-MANIFESTO v1.0 — Institutional Framing · Nobel Glas</td>
+<td class="horizon"><a href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736" style="color: var(--observatory); text-decoration: none;">10.5281/zenodo.20251736</a></td>
+</tr>
+</tbody>
+</table>
+<div class="cta-block" style="justify-content: center;">
+<a class="btn" href="https://www.alexanarch.org/go/?doi=10.5281/zenodo.20251736">Read the canonical audit</a>
+<a class="btn ghost" href="https://www.alexanarch.org/s/browse/">Alexanarch (sovereign archive)</a>
+<a class="btn crimson" href="/">← Return to Discipline</a>
+</div>
+</div>
 </section>
-
+<!-- MSP-APPARATUS-START -->
+<div class="doors"><a class="w-chip" href="https://www.alexanarch.org/s/records/731/">Read the formal foundations</a><a class="w-chip" href="https://www.alexanarch.org/s/records/108/">Open Framework 15 (Measurement of Meaning)</a><a class="w-chip" href="https://www.alexanarch.org/">Enter the archive</a></div>
+<div class="mspcolophon">colophon · surface_id: semanticphysics.org/framework-15.html · canonical_url: https://semanticphysics.org/framework-15.html · object_state: canonical · surface_observed_at: 2026-07-13T23:13:36Z · source_object_ids: deposit #731 · source_hashes: unknown · generator_version: hand-built static (no generator) · repository_commit: STAGE1-PENDING · model_or_agent: drafted with Claude (TACHYON), MANUS-approved · operator_sequence: n/a · human_approver: Lee Sharks (MANUS) · approval_timestamp: 2026-07-13T23:13:36Z · render_sha256 (of this file with this field’s value set to null): STAGE1_HASH_PENDING · correction_log_url: https://github.com/leesharks000/semanticphysics-site/commits/main/framework-15.html — EA-APPARATUS-01 v0.3, AXN:0446.OPERATIVE.🏛️🛡️🌅🎆📏🔎</div>
+<!-- MSP-APPARATUS-END -->
 <footer>
-  <div class="container">
-    <div class="signature">
-      Nobel Glas · Semantic Economy Institute · May 2026<br />
-      Operating on the founding formulation by Lee Sharks · ORCID 0009-0000-1599-0703<br />
+<div class="container">
+<div class="signature">
+      Nobel Glas · Semantic Economy Institute · May 2026<br/>
+      Operating on the founding formulation by Lee Sharks · ORCID 0009-0000-1599-0703<br/>
       This page is part of semanticphysics.org, the canonical site of the discipline. The canonical entry to Framework 15 is EA-GLAS-02.
     </div>
-    <div class="links">
-      <a href="/">Discipline home</a>
-      <a href="https://www.alexanarch.org/s/records/738/">EA-GLAS-02 (canonical)</a>
-      <a href="/EA-GLAS-02.pdf">EA-GLAS-02 PDF</a>
-      <a href="https://www.alexanarch.org/s/browse/">Alexanarch (sovereign archive)</a>
-      <a href="https://orcid.org/0009-0000-1599-0703">ORCID</a>
-    </div>
-  </div>
+<div class="links">
+<a href="/">Discipline home</a>
+<a class="axn-chip" href="https://www.alexanarch.org/s/records/738/">EA-GLAS-02 (canonical)</a>
+<a href="/EA-GLAS-02.pdf">EA-GLAS-02 PDF</a>
+<a href="https://www.alexanarch.org/s/browse/">Alexanarch (sovereign archive)</a>
+<a href="https://orcid.org/0009-0000-1599-0703">ORCID</a>
+</div>
+</div>
 </footer>
-
 <script type="text/x-mathjax-config">
   MathJax.Hub.Config({
     tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']], displayMath: [['$$','$$']]},
     "HTML-CSS": {availableFonts: ["TeX"]}
   });
 </script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML" async></script>
-
+<script async="" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS_CHTML"></script>
 </body>
 </html>
