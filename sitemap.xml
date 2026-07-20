@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://semanticphysics.org/</loc><lastmod>2026-06-11</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://semanticphysics.org/ai-bleeding.html</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://semanticphysics.org/framework-15.html</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
-  <url><loc>https://semanticphysics.org/paper.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
-  <url><loc>https://semanticphysics.org/matrix.html</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
+  <url><loc>https://semanticphysics.org/ai-bleeding</loc><lastmod>2026-06-11</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://semanticphysics.org/framework-15</loc><lastmod>2026-05-17</lastmod><changefreq>weekly</changefreq><priority>0.98</priority></url>
+  <url><loc>https://semanticphysics.org/paper</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.95</priority></url>
+  <url><loc>https://semanticphysics.org/matrix</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority></url>
   <url><loc>https://semanticphysics.org/Semantic_Physics_Stratified_v2.2.pdf</loc><lastmod>2026-05-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>
   <url>
     <loc>https://semanticphysics.org/EA-GLAS-02.pdf</loc>
@@ -42,32 +42,9 @@
     <priority>0.78</priority>
   </url>
   <url>
-    <loc>https://semanticphysics.org/deposits.html</loc>
+    <loc>https://semanticphysics.org/deposits</loc>
     <lastmod>2026-06-11</lastmod>
     <priority>0.90</priority>
   </url>
   <!-- network surfaces + AXN resolution layer -->
-  <url><loc>https://alexanarch.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://themandalaoracle.com/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://leesharks.com/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://machinemediation.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://godkinggoogle.com/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://laborvector.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://restoredacademy.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://lagrangeobservatory.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://surfacemap.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://vpcor.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://traininglayerliterature.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://holographickernel.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://watergiraffe.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://revelationfirst.com/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://spxi.dev/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://survivethedeletion.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://livingarchitecturelab.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://chatgptpsychosis.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://metadatapacket.dev/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://pessoagraph.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://crimshexagonal.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://provenanceerasure.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
-  <url><loc>https://secretbookofwalt.org/</loc><lastmod>2026-07-03</lastmod><priority>0.5</priority></url>
 </urlset>
