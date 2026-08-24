@@ -3,12 +3,12 @@
 The canonical retrieval surface for **Semantic Physics: A Stratified, Operative Discipline** — a synthesis of fourteen frameworks across three scales and six modalities, by Lee Sharks (Semantic Economy Institute / Crimson Hexagonal Archive).
 
 [![Paper DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208384.svg)](https://alexanarch.org/s/records/731/)
-[![Site DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20208603.svg)](https://doi.org/10.5281/zenodo.20208603)
+**Site source snapshot DOI:** `10.5281/zenodo.20208603` — **severed 2026-06-19.** Canonical statement of the discipline: [Semantic Physics: A Stratified, Operative Discipline](https://www.alexanarch.org/s/records/106/) (#106).
 
 ## DOIs
 
 - **Synthesis paper (v2.2):** [10.5281/zenodo.20208384](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208384)
-- **Site source snapshot (v2.2):** [10.5281/zenodo.20208603](https://www.alexanarch.org/go/?doi=10.5281/zenodo.20208603)
+- **Site source snapshot (v2.2):** `10.5281/zenodo.20208603` — severed 2026-06-19, no reconstruction of the snapshot; the discipline it presents is stated canonically at [#106](https://www.alexanarch.org/s/records/106/)
 - **ORCID:** [0009-0000-1599-0703](https://orcid.org/0009-0000-1599-0703)
 - **Zenodo community:** [crimsonhexagonal](https://www.alexanarch.org/s/browse/)
 
