@@ -2,4 +2,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://semanticphysics.org/sitemap.xml
+Sitemap: https://www.semanticphysics.org/sitemap.xml
